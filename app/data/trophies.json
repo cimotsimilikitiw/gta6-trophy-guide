@@ -9,10 +9,9 @@
       "description": "Congratulations! You're a Leonida Legend.",
       "grade": "platinum",
       "kind": "other",
-      "hidden": false,
       "missable": false,
-      "chapter": "Completion",
-      "guide": "Awarded after every other Grand Theft Auto VI trophy has been unlocked. Plan to clear story, activities, collectibles, and combat challenges, then sweep up any remaining one-off tasks. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "chapter": "Platinum",
+      "guide": "This platinum unlocks after every other trophy in Grand Theft Auto VI has been earned. Treat it as the final checklist item: finish the story, reach 100% completion, and clear all activity, collectible, and combat objectives. Requirement source: official PlayStation trophy list for Grand Theft Auto VI (2026-11-18)."
     },
     {
       "id": 2,
@@ -20,10 +19,9 @@
       "description": "Complete Gone Fishing.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Prologue",
-      "guide": "Story trophy for finishing the mission 'Gone Fishing'. Play through the prologue objectives until the mission completes. As a main-story mission, it is earned through normal progression. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Story trophy awarded for completing the opening mission, Gone Fishing. Play through the prologue at your own pace and follow the mission objectives until the completion screen appears. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 3,
@@ -31,10 +29,9 @@
       "description": "Complete Chapter 1.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Chapter 1",
-      "guide": "Earned by completing Chapter 1 of the main story. Follow the required Chapter 1 missions in order and finish the chapter-ending objective. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Earned by finishing Chapter 1 of the main story. Progress through the chapter missions in order; the trophy pops when the chapter concludes. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 4,
@@ -42,10 +39,9 @@
       "description": "Complete Chapter 2.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Chapter 2",
-      "guide": "Earned by completing Chapter 2. Advance the main campaign through all required Chapter 2 missions until the chapter wraps up. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Awarded for completing Chapter 2. Continue the main campaign past Chapter 1 and clear the chapter's final mission to unlock this trophy. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 5,
@@ -53,10 +49,9 @@
       "description": "Complete Chapter 3.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Chapter 3",
-      "guide": "Earned by completing Chapter 3. Continue the main story and finish the missions required to close out the chapter. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Unlocks when you complete Chapter 3. Follow the main story missions through Vice City and finish the chapter-closing objective. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 6,
@@ -64,10 +59,9 @@
       "description": "Complete Chapter 4.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Chapter 4",
-      "guide": "Earned by completing Chapter 4. Work through the chapter's required story missions and complete its final objective. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Granted for completing Chapter 4 of the campaign. Stay on the main mission path and finish the chapter finale to earn it. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 7,
@@ -75,10 +69,9 @@
       "description": "Complete the final mission.",
       "grade": "gold",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Finale",
-      "guide": "Gold story trophy for finishing the final mission. Before starting, stock up on health, armor, and preferred weapons, then complete the finale objectives. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Gold story trophy for finishing the final mission of Grand Theft Auto VI. Make sure you are prepared for the finale with good weapons, armor, and a reliable vehicle. The trophy unlocks once the final mission is complete. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 8,
@@ -86,10 +79,9 @@
       "description": "Complete Breakfast Run.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Story Mission",
-      "guide": "Complete the story mission 'Breakfast Run'. Select or reach the mission in the campaign and fulfill its objectives to the end. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Complete the story mission Breakfast Run. Accept the mission when it becomes available in the campaign and clear all of its objectives. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 9,
@@ -97,10 +89,9 @@
       "description": "Complete The Cartel Heist.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Story Mission",
-      "guide": "Complete the story mission 'The Cartel Heist'. Follow the heist setup and execution objectives as presented in the mission and finish it successfully. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Awarded for completing The Cartel Heist. This is a main-story mission; follow the mission markers, handle the heist objectives, and escape as directed to trigger the trophy. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 10,
@@ -108,10 +99,9 @@
       "description": "Complete Child's Play.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Story Mission",
-      "guide": "Complete the story mission 'Child's Play'. Progress through the mission objectives until completion; it is part of normal story progression. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Complete the mission Child's Play during the campaign. The trophy unlocks on mission completion. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 11,
@@ -119,10 +109,9 @@
       "description": "Complete Headliners.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Story Mission",
-      "guide": "Complete the story mission 'Headliners'. Stay on the mission markers and finish every required objective in that mission. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Earned by completing the story mission Headliners. Progress through the mission objectives and finish it to add this bronze to your collection. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 12,
@@ -130,10 +119,9 @@
       "description": "Complete VCIA Takedown.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Story Mission",
-      "guide": "Complete the story mission 'VCIA Takedown'. Carry out the mission's takedown objectives and reach the mission completion screen. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Complete the mission VCIA Takedown. Follow the mission flow and wrap up its objectives; the trophy is granted at completion. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 13,
@@ -141,21 +129,19 @@
       "description": "Complete Operation Savage Glory.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Story Mission",
-      "guide": "Complete the story mission 'Operation Savage Glory'. Follow the operation objectives through to the end of the mission. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Awarded for finishing Operation Savage Glory. Treat it like any other required story mission: complete every objective and reach the mission complete screen. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 14,
       "name": "A Long Road",
       "description": "Attain 100% Completion.",
       "grade": "gold",
-      "kind": "collectibles",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
       "chapter": "Completion",
-      "guide": "Gold trophy for reaching 100% completion. This typically requires finishing required story content plus the game's tracked side activities, collectibles, and challenges; use the in-game completion checklist to confirm every category is done. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Gold trophy for reaching 100% completion in Grand Theft Auto VI. This typically requires finishing story content, side activities, collectibles, and other tracked categories in the in-game completion checklist. Use the in-game progress tracker to identify missing categories and clean them up systematically. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 15,
@@ -163,10 +149,9 @@
       "description": "Complete 250 Stunts.",
       "grade": "silver",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
       "chapter": "Activities",
-      "guide": "Perform and complete 250 stunts. Use ramps, jumps, and stunt opportunities across Leonida; keep a running count and repeat stunt-friendly routes if needed. Progress is cumulative. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Perform and complete 250 stunts. Stunt jumps and similar stunt activities count toward this total; look for ramps, gaps, and stunt-friendly terrain while exploring Leonida. Track your progress in-game and revisit dense stunt areas if needed. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 16,
@@ -174,10 +159,9 @@
       "description": "Try each type of activity once.",
       "grade": "bronze",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
       "chapter": "Activities",
-      "guide": "Sample every activity type at least once. The trophy description indicates there are distinct activity categories; visit each one and complete or participate in a single instance to register it. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Sample every activity type at least once. The official description does not list the types, but community trophy trackers report 9 activity types in total; confirm the count in your in-game activity menu and make sure each category has been attempted. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; activity count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
     },
     {
       "id": 17,
@@ -185,10 +169,9 @@
       "description": "Earn a gold medal in all Shooting Range challenges.",
       "grade": "silver",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
       "chapter": "Activities",
-      "guide": "Achieve a gold medal rating on every Shooting Range challenge. Learn each range's target pattern, prioritize accuracy and speed as the scoring requires, and replay ranges until every one records a gold medal. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Earn gold medals on every Shooting Range challenge. The official description requires gold across all challenges; public trophy trackers report 42 challenges. Practice weapon handling, aim for accuracy and speed bonuses, and replay ranges until each one is gold. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; challenge count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
     },
     {
       "id": 18,
@@ -196,10 +179,9 @@
       "description": "Win a Top Fun Drone Race at every location.",
       "grade": "bronze",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
       "chapter": "Activities",
-      "guide": "Win one Top Fun Drone Race at each drone race location. Find every race location on the map, enter the event, and place first; move on only after that location has a win recorded. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Win one Top Fun Drone Race at each race location. Public trophy trackers report 14 locations; use the map or activity tracker to confirm you have a win at every location, not just 14 wins total. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; location count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
     },
     {
       "id": 19,
@@ -207,10 +189,9 @@
       "description": "Win 20 different races.",
       "grade": "bronze",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
       "chapter": "Activities",
-      "guide": "Win 20 different races. Track which races you have already won and prioritize new events rather than repeating the same one. Any race that counts as a distinct event should contribute toward the total. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Win 20 different races. The key word is different: replaying the same race should not be relied on. Keep a note of which race events you have won and rotate through new ones until the counter reaches 20. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 20,
@@ -218,10 +199,9 @@
       "description": "Beat Cal in a fishing challenge.",
       "grade": "bronze",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
       "chapter": "Activities",
-      "guide": "Defeat Cal in a fishing challenge. Trigger the fishing challenge with Cal when available, then outperform his score or catch result as the challenge defines. Bring patience and follow the on-screen fishing prompts. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Defeat Cal in a fishing challenge. Find the fishing challenge involving Cal, learn the timing for casts and reeling, and score higher than Cal before the challenge ends. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 21,
@@ -229,10 +209,9 @@
       "description": "Complete an arcade game.",
       "grade": "bronze",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
       "chapter": "Activities",
-      "guide": "Finish a playable arcade game. Locate an arcade cabinet in the game world, start the arcade game, and play it through to completion. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Finish one arcade game from start to completion. Locate an arcade cabinet in the world, start a playable game, and see it through to its end state rather than quitting early. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 22,
@@ -240,10 +219,9 @@
       "description": "Complete the final mission for Andy.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Stranger Missions",
-      "guide": "Complete Andy's final stranger mission. Finish all prerequisite missions in Andy's mission strand, then complete the last mission he gives you. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Complete Andy's final mission in his mission strand. Stranger/side mission strands become available as you progress; follow Andy's missions to the last one and finish it. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 23,
@@ -251,10 +229,9 @@
       "description": "Complete the final mission for Kenton.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Stranger Missions",
-      "guide": "Complete Kenton's final stranger mission. Progress through Kenton's mission chain and clear the concluding mission in that strand. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Finish Kenton's final mission. Progress through Kenton's mission chain whenever it appears, then complete the concluding mission to unlock the trophy. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 24,
@@ -262,21 +239,19 @@
       "description": "Complete the final mission for Billy.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Stranger Missions",
-      "guide": "Complete Billy's final stranger mission. Work through Billy's available missions until the final one becomes available, then finish it. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Complete Billy's final mission. Work through Billy's available missions in order and clear the last mission in the strand. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 25,
       "name": "Strangers & Freaks",
       "description": "Complete 8 mission strands for strangers across the state of Leonida.",
       "grade": "silver",
-      "kind": "story",
-      "hidden": false,
+      "kind": "activities",
       "missable": false,
       "chapter": "Stranger Missions",
-      "guide": "Silver trophy for completing eight stranger mission strands across Leonida. A strand is complete when you finish its final mission; track each stranger's chain and finish eight separate strands. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Complete eight stranger mission strands across Leonida. A strand means finishing that stranger's full mission chain, not just one mission. Track which strangers you have fully completed and prioritize strands while traveling between regions. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 26,
@@ -284,10 +259,9 @@
       "description": "Complete the final mission for Randy.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Stranger Missions",
-      "guide": "Complete Randy's final stranger mission. Follow Randy's mission strand from start to finish and complete the last mission in the chain. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Finish Randy's final mission. Complete every mission in Randy's strand and close it out with the final mission to earn the trophy. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 27,
@@ -295,10 +269,9 @@
       "description": "Complete the final mission for Tyrone.",
       "grade": "bronze",
       "kind": "story",
-      "hidden": false,
       "missable": false,
       "chapter": "Stranger Missions",
-      "guide": "Complete Tyrone's final stranger mission. Advance through Tyrone's missions and finish the final mission in his strand. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Complete Tyrone's final mission. Follow Tyrone's mission strand through to its concluding mission and finish it. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 28,
@@ -306,10 +279,9 @@
       "description": "Meditate at every spot across Leonida.",
       "grade": "bronze",
       "kind": "collectibles",
-      "hidden": false,
       "missable": false,
       "chapter": "Exploration",
-      "guide": "Meditate at every meditation spot in Leonida. Locate each meditation point during exploration and interact with it until the meditation action completes. Keep a checklist so no spot is missed. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Meditate at every meditation spot in Leonida. Public trophy trackers report 18 spots; visit each one and use the meditate interaction. Keeping a map checklist helps avoid missing a remote location. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; spot count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
     },
     {
       "id": 29,
@@ -317,10 +289,9 @@
       "description": "Hunt a unique animal for Bret.",
       "grade": "bronze",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
       "chapter": "Stranger Missions",
-      "guide": "Hunt a unique animal for Bret as part of his activity/mission. Accept or reach Bret's relevant task, locate the unique animal target, and complete the hunt objective. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Hunt the unique animal tied to Bret's activity/mission. Follow Bret's instructions, travel to the hunt area, and take down the specific unique animal required. Bring appropriate weapons and be ready for a tracking-style encounter. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 30,
@@ -328,10 +299,9 @@
       "description": "Complete 3 Collectible Card sets.",
       "grade": "silver",
       "kind": "collectibles",
-      "hidden": false,
       "missable": false,
       "chapter": "Collectibles",
-      "guide": "Complete three full collectible card sets. Find every card in each of three sets; partial sets do not count until the full set is complete. Track which cards and sets are missing in-game or with your own checklist. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Complete three collectible card sets. This means collecting every card in each of three different sets, not just finding three individual cards. Use in-game collectible tracking or a map checklist to finish sets efficiently. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 31,
@@ -339,10 +309,9 @@
       "description": "WAiNK It at 100 locations.",
       "grade": "silver",
       "kind": "collectibles",
-      "hidden": false,
       "missable": false,
-      "chapter": "Exploration",
-      "guide": "Use the WAiNK It action at 100 different locations. Visit locations around Leonida where WAiNK It is available and perform the action until 100 locations are registered. Prioritize new locations to avoid duplicates. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "chapter": "Collectibles",
+      "guide": "Perform the WAiNK It action at 100 locations. These are location-based collectibles/interactions spread across the map; track your count in-game and sweep regions methodically. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 32,
@@ -350,32 +319,29 @@
       "description": "Complete 50 Challenges.",
       "grade": "bronze",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
-      "chapter": "Challenges",
-      "guide": "Complete 50 challenges. Open the challenges/progress tracker, pick challenges you can finish during normal play, and work toward 50 total completions. Cumulative progress counts across different challenge types. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "chapter": "Activities",
+      "guide": "Complete 50 challenges. Challenges are tracked separately from story missions; check the in-game challenges menu for categories and progress. Pick shorter or easier challenges first to build momentum. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 33,
       "name": "Hot Together",
       "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
       "grade": "bronze",
-      "kind": "activities",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
       "chapter": "Free Roam",
-      "guide": "With your partner present, reach a 4-star wanted level and then evade police until the wanted level is cleared. Use a fast vehicle, break line of sight, and avoid re-engaging until you escape. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "While with your partner, reach a 4-star wanted level and then successfully evade law enforcement. Plan an escape route with alleys, tunnels, or vehicle swaps, and avoid re-engaging until the wanted stars fully clear. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 34,
       "name": "Retail Therapy",
       "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
       "grade": "bronze",
-      "kind": "activities",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
       "chapter": "Free Roam",
-      "guide": "Rob three shops in a row with your partner while keeping your wanted level active/maintained as the description states - do not let it drop between the three robberies. Plan a route with nearby shops and a getaway vehicle ready. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "With your partner, rob three shops consecutively without letting your wanted level drop between robberies. Choose shops close together, plan a fast route, and keep moving before police pressure resets the chain. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 35,
@@ -383,54 +349,49 @@
       "description": "Discover 100 vehicles.",
       "grade": "bronze",
       "kind": "collectibles",
-      "hidden": false,
       "missable": false,
-      "chapter": "Exploration",
-      "guide": "Discover 100 different vehicles. Enter, drive, or otherwise register vehicles as you encounter them across Leonida. Explore varied regions and traffic types to fill out the discovery count. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "chapter": "Collectibles",
+      "guide": "Discover 100 different vehicles. Discovery generally means encountering or entering vehicles so they register in your collection/progress. Explore varied neighborhoods, parking lots, and roads to find different models. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 36,
       "name": "Gunslinger",
       "description": "Take down 5 enemies in a single use of Combat Focus.",
       "grade": "bronze",
-      "kind": "activities",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
       "chapter": "Combat",
-      "guide": "Defeat five enemies during one activation of Combat Focus. Build up Combat Focus, trigger it when at least five enemies are grouped or vulnerable, and eliminate them before the ability ends. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Defeat five enemies during one activation of Combat Focus. Build the ability, enter a combat encounter with enough enemies nearby, activate Combat Focus, and prioritize quick, accurate eliminations before the ability ends. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 37,
       "name": "Catch Me If You Can",
       "description": "Make an unscheduled departure at VCIA.",
       "grade": "bronze",
-      "kind": "activities",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
       "chapter": "Free Roam",
-      "guide": "Cause an unscheduled departure at VCIA. Travel to Vice City International Airport and find a way to leave in an aircraft or vehicle in a manner the game counts as unscheduled. Be ready for security or wanted-level response. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Trigger an unscheduled departure at VCIA (the Vice City International Airport). The description implies leaving the airport in an unconventional way; experiment with accessing restricted areas or aircraft/vehicles and making a sudden exit. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 38,
       "name": "Challenging Tank",
       "description": "Kinda hot in these Rhinos.",
       "grade": "bronze",
-      "kind": "activities",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
       "chapter": "Combat",
-      "guide": "The description references Rhinos (tanks), so obtain or engage with a Rhino and survive or handle the heat implied by the trophy. Expect heavy resistance; use armor and cover while completing the required tank-related action. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "This trophy involves Rhinos (military tanks). The official description is intentionally coy; based on the name and description, expect to steal, survive, or cause chaos in a Rhino. Prepare for heavy wanted response and bring an escape plan. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 39,
       "name": "Sneakthief",
       "description": "Rob a jewelry store without being detected.",
       "grade": "bronze",
-      "kind": "activities",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
       "chapter": "Heists",
-      "guide": "Rob a jewelry store while remaining undetected. Scout the store, avoid alarms and line-of-sight, and complete the robbery objective without triggering detection. Stealth gear and careful timing help. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Rob a jewelry store while remaining undetected. Scout the store, avoid cameras or guards as applicable, and use stealth takedowns or quiet entry methods. If detection triggers, reset and retry. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 40,
@@ -438,21 +399,19 @@
       "description": "Rob 5 Bank Vaults and escape.",
       "grade": "silver",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
       "chapter": "Heists",
-      "guide": "Rob five bank vaults and successfully escape after each robbery. Plan each heist, secure the vault, and reach safety; repeat until five vault robberies have been completed with escapes. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Successfully rob five bank vaults and escape after each robbery. Each vault robbery must end with a clean getaway. Plan loadouts, escape vehicles, and routes before starting; repeating the same bank may or may not count depending on game rules, so prefer distinct vaults until confirmed in-game. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 41,
       "name": "A Classic Blitz Play",
       "description": "Rob an Armored Truck and escape.",
       "grade": "bronze",
-      "kind": "activities",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
       "chapter": "Free Roam",
-      "guide": "Intercept an armored truck, rob it, and get away. Look for armored truck spawns or events in free roam, deal with any guards, take the cash, and evade pursuit. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Rob an armored truck and get away. Locate an armored truck in traffic or at a stop, break it open or take its cargo as the game allows, then evade any response and escape the area. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 42,
@@ -460,10 +419,9 @@
       "description": "Explore all of Leonida.",
       "grade": "bronze",
       "kind": "collectibles",
-      "hidden": false,
       "missable": false,
       "chapter": "Exploration",
-      "guide": "Visit every region/area required for full Leonida exploration. Travel across the map, uncovering all major areas until the game registers Leonida as fully explored. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Visit every area of Leonida. Public trophy trackers report 52 areas; uncover the full map by traveling through each region. A vehicle or aircraft makes sweeping remote areas easier. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; area count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
     },
     {
       "id": 43,
@@ -471,32 +429,29 @@
       "description": "Rob an Illegal Operation belonging to each gang.",
       "grade": "bronze",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
-      "chapter": "Free Roam",
-      "guide": "Rob one illegal operation for every gang. Identify which gangs have illegal operations, hit at least one operation owned by each gang, and complete the robbery objective. Track gangs as you go. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "chapter": "Activities",
+      "guide": "Rob one illegal operation for every gang. Public trophy trackers report 9 gangs; identify each gang's illegal operation location, complete a robbery there, and move on to the next gang until all nine are covered. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; gang count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
     },
     {
       "id": 44,
       "name": "In The Beginning…",
       "description": "Enjoy a cocktail with a view on Ocean Beach.",
       "grade": "bronze",
-      "kind": "activities",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
       "chapter": "Exploration",
-      "guide": "Have a cocktail at a spot with a view on Ocean Beach. Go to Ocean Beach, find a bar or location that serves cocktails with the required view, and interact to drink it. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Have a cocktail at a spot with a view on Ocean Beach. Head to Ocean Beach, find a bar or venue serving cocktails with an ocean-facing view, and order/drink a cocktail to trigger the trophy. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 45,
       "name": "Capital Offense",
       "description": "Smash your way out of a vehicle showroom in classic style.",
       "grade": "bronze",
-      "kind": "activities",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
       "chapter": "Free Roam",
-      "guide": "Escape a vehicle showroom by smashing your way out. Enter a vehicle showroom, get in a vehicle or create an exit by breaking through, and leave in the dramatic fashion the description implies. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Escape a vehicle showroom by smashing through in a vehicle, in classic GTA fashion. Enter a showroom, get into a display vehicle, and drive through the glass/exit dramatically. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 46,
@@ -504,65 +459,59 @@
       "description": "Follow-through at the Kolt & Associates' bowling alley.",
       "grade": "bronze",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
       "chapter": "Activities",
-      "guide": "Visit the Kolt & Associates bowling alley and complete a bowling action with a proper follow-through as the game requires. Play a frame or game there until the trophy triggers. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Visit the Kolt & Associates bowling alley and complete a bowling action with a proper follow-through. The description hints at performing the bowling mechanic as intended; play a frame or game and ensure you complete the throw animation. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 47,
       "name": "Personal Best",
       "description": "A partnership with mass appeal.",
       "grade": "bronze",
-      "kind": "story",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
-      "chapter": "Story",
-      "guide": "Story/partnership trophy awarded for reaching the milestone described as a partnership with mass appeal. Progress through the relevant story or partnership objectives until the trophy unlocks. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "chapter": "Story/Free Roam",
+      "guide": "This trophy's official description is deliberately vague. It references a partnership with mass appeal; expect it to unlock during a notable partner moment or social/media-related milestone. Keep an eye on story and partner activities and check community trophy guides after release for the exact trigger. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 48,
       "name": "Actions Speak Louder",
       "description": "Choices made (for better or worse).",
       "grade": "bronze",
-      "kind": "story",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
-      "chapter": "Story",
-      "guide": "Unlocked by making choices as indicated by the description. Progress through story moments where decisions are made and complete the required choice event. If multiple choices exist, any choice that satisfies the trigger should work unless the game specifies otherwise. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "chapter": "Story/Free Roam",
+      "guide": "Unlocks through making choices. Public trophy trackers note PSN tracking up to 500 choices; if accurate, this is a cumulative progression trophy earned by playing naturally and selecting dialogue or action options when prompted. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; tracking detail cross-checked against public trophy trackers such as PSNProfiles/Exophase."
     },
     {
       "id": 49,
       "name": "Bad Luck, I Guess",
       "description": "Second time's the charm.",
       "grade": "bronze",
-      "kind": "activities",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
-      "chapter": "General",
-      "guide": "Succeed on a second attempt. Fail an activity or attempt once, retry, and complete it successfully on the next try. Choose a short, repeatable activity to make this easy to control. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "chapter": "Free Roam",
+      "guide": "A tongue-in-cheek trophy that suggests succeeding on a second attempt. If it does not unlock naturally, try failing a retryable activity or mission once, then completing it on the next attempt. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 50,
       "name": "The Truth Is Out There",
       "description": "What the hell just happened?",
       "grade": "bronze",
-      "kind": "activities",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
       "chapter": "Exploration",
-      "guide": "Trigger the unusual event referenced by the trophy description. Investigate distinctive exploration content or strange encounters in Leonida and remain through the full event until the trophy pops. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Witness a strange or unexplained event. The official description is intentionally mysterious; explore unusual locations, side encounters, and easter-egg areas. Community guides will likely pinpoint the exact trigger after release. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 51,
       "name": "Ten Pin",
       "description": "Bowl 'em over with a melee drive-by.",
       "grade": "bronze",
-      "kind": "activities",
-      "hidden": false,
+      "kind": "other",
       "missable": false,
       "chapter": "Combat",
-      "guide": "Knock down a target with a melee drive-by. From a vehicle, perform a melee attack as you pass close to a pedestrian or enemy so they are bowled over. A low-speed pass makes aiming easier. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Hit someone with a melee attack while performing a drive-by. Get in a vehicle as a passenger or in a position that allows drive-by melee, pull alongside a pedestrian or enemy, and land a melee strike. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 52,
@@ -570,10 +519,9 @@
       "description": "Earn $250,000 laundering Marked Bills through your contacts.",
       "grade": "bronze",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
       "chapter": "Money",
-      "guide": "Launder a cumulative $250,000 in Marked Bills through your contacts. Collect Marked Bills during gameplay, then use the contact laundering option repeatedly until the total laundered reaches $250,000. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Launder $250,000 worth of marked bills using your contacts. Acquire marked bills through missions or free-roam activities, then use the laundering contact/system to convert them until the cumulative laundered total reaches $250,000. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 53,
@@ -581,10 +529,9 @@
       "description": "Spend $100,000 across all shops.",
       "grade": "bronze",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
       "chapter": "Money",
-      "guide": "Spend a total of $100,000 at shops. Purchases across different shop types count toward the same total; buy items or services until cumulative spending reaches $100,000. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Spend a cumulative $100,000 across shops. Any shop purchases should contribute to the total; buy clothing, weapons, services, or other items until you hit the threshold. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     },
     {
       "id": 54,
@@ -592,10 +539,9 @@
       "description": "Purchase all garage properties.",
       "grade": "bronze",
       "kind": "collectibles",
-      "hidden": false,
       "missable": false,
       "chapter": "Properties",
-      "guide": "Buy every garage property. Save up money, locate all garage properties available in the game, and purchase each one. Confirm no garage remains unowned. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Buy every garage property available in the game. Public trophy trackers report 8 garage properties; save money, visit each property listing, and purchase them all. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; property count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
     },
     {
       "id": 55,
@@ -603,10 +549,9 @@
       "description": "Register 10 vehicles to the Scooter Bros app.",
       "grade": "bronze",
       "kind": "activities",
-      "hidden": false,
       "missable": false,
       "chapter": "Activities",
-      "guide": "Register 10 vehicles through the Scooter Bros app. Open the app, select eligible vehicles, and complete registration for ten different vehicles. Source: PlayStation trophy listing for Grand Theft Auto VI; Exophase trophy database."
+      "guide": "Register 10 vehicles using the Scooter Bros in-game app. Open the app, select eligible vehicles you own or have access to, and complete registration for ten of them. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
     }
   ]
 }

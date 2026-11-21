@@ -3,58 +3,49 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Grand Theft Auto VI — Trophy Guide</title>
+  <title>GTA VI Trophy Tracker</title>
+  <meta name="description" content="A fan-made Grand Theft Auto VI trophy checklist and roadmap with local progress tracking.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip-link" href="#trophy-table">Skip to trophy list</a>
 
-  <header class="hero">
-    <div class="wrap">
-      <p class="kicker">PlayStation 5 · Unofficial fan guide</p>
-      <h1>Grand Theft Auto VI Trophy Guide</h1>
-      <p class="lede">
-        A complete offline tracker for all 55 official trophies. Filter the list, mark what you have earned,
-        hide story spoilers, and use the roadmap to plan the platinum.
-      </p>
-      <div class="stats" aria-live="polite">
-        <div class="stat">
-          <span class="stat-label">Earned</span>
-          <strong id="stat-earned" class="stat-value">0 / 55</strong>
-        </div>
-        <div class="stat">
-          <span class="stat-label">Completion</span>
-          <strong id="stat-pct" class="stat-value">0%</strong>
-        </div>
-        <div class="stat">
-          <span class="stat-label">Visible</span>
-          <strong id="stat-visible" class="stat-value">55</strong>
-        </div>
+  <header class="site-header">
+    <div class="wrap header-grid">
+      <div>
+        <p class="eyebrow">Grand Theft Auto VI · PlayStation 5</p>
+        <h1>Trophy Tracker &amp; Roadmap</h1>
+        <p class="lede">
+          A practical checklist for all 55 trophies. Track what you have earned, filter by kind or grade,
+          and keep story details hidden until you are ready.
+        </p>
       </div>
-      <p id="totals" class="totals">Totals: 55 trophies (1 platinum, 2 gold, 9 silver, 43 bronze).</p>
+      <aside class="summary-card" aria-label="Progress summary">
+        <p class="summary-label">Completion</p>
+        <p class="summary-value"><span id="earned-count">0</span><span class="summary-sep">/</span><span id="total-count">55</span></p>
+        <p class="summary-sub" id="earned-percent">0% complete</p>
+        <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0" aria-labelledby="progress-label">
+          <span id="progress-label" class="visually-hidden">Trophies earned</span>
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+      </aside>
     </div>
   </header>
 
-  <main id="main" class="wrap main">
-    <section class="panel controls" aria-labelledby="controls-title">
+  <main class="wrap">
+    <section class="panel controls" aria-labelledby="controls-heading">
       <div class="panel-head">
-        <h2 id="controls-title">Filters &amp; tools</h2>
-        <p class="panel-sub">Your checklist is saved in this browser.</p>
+        <h2 id="controls-heading">Filter trophies</h2>
+        <p class="panel-note">Progress is saved in this browser only.</p>
       </div>
       <div class="control-grid">
         <label class="field">
-          <span>Grade</span>
-          <select id="filter-grade">
-            <option value="all">All grades</option>
-            <option value="platinum">Platinum</option>
-            <option value="gold">Gold</option>
-            <option value="silver">Silver</option>
-            <option value="bronze">Bronze</option>
-          </select>
+          <span>Search</span>
+          <input id="search" type="search" placeholder="Name, description, guide..." autocomplete="off" spellcheck="false">
         </label>
         <label class="field">
           <span>Kind</span>
-          <select id="filter-kind">
+          <select id="kind-filter">
             <option value="all">All kinds</option>
             <option value="story">Story</option>
             <option value="activities">Activities</option>
@@ -63,71 +54,99 @@
           </select>
         </label>
         <label class="field">
-          <span>Status</span>
-          <select id="filter-status">
-            <option value="all">All trophies</option>
-            <option value="earned">Earned only</option>
-            <option value="remaining">Remaining only</option>
+          <span>Grade</span>
+          <select id="grade-filter">
+            <option value="all">All grades</option>
+            <option value="platinum">Platinum</option>
+            <option value="gold">Gold</option>
+            <option value="silver">Silver</option>
+            <option value="bronze">Bronze</option>
           </select>
         </label>
-        <label class="check">
-          <input id="toggle-spoilers" type="checkbox">
-          <span>Hide story spoiler guides</span>
+        <label class="field field-toggle">
+          <span>Story spoilers</span>
+          <span class="toggle-row">
+            <input id="hide-spoilers" type="checkbox">
+            <span>Hide story trophy names &amp; details</span>
+          </span>
         </label>
       </div>
-      <div class="tool-row">
-        <button id="btn-export" type="button" class="btn">Export progress</button>
-        <label class="btn btn-secondary file-btn" for="import-file">
-          Import progress
-          <input id="import-file" type="file" accept="application/json,.json">
-        </label>
-        <button id="btn-reset-filters" type="button" class="btn btn-quiet">Reset filters</button>
+      <div class="control-footer">
+        <p id="status" class="status" role="status" aria-live="polite">Loading trophies…</p>
+        <button id="clear-filters" type="button" class="btn-ghost">Clear filters</button>
       </div>
-      <p id="status" class="status" role="status" aria-live="polite"></p>
     </section>
 
-    <section class="panel roadmap" aria-labelledby="roadmap-title">
+    <section class="stats" aria-label="Trophy counts">
+      <article class="stat">
+        <p class="stat-label">Platinum</p>
+        <p class="stat-value" id="stat-platinum">0</p>
+      </article>
+      <article class="stat">
+        <p class="stat-label">Gold</p>
+        <p class="stat-value" id="stat-gold">0</p>
+      </article>
+      <article class="stat">
+        <p class="stat-label">Silver</p>
+        <p class="stat-value" id="stat-silver">0</p>
+      </article>
+      <article class="stat">
+        <p class="stat-label">Bronze</p>
+        <p class="stat-value" id="stat-bronze">0</p>
+      </article>
+    </section>
+
+    <section class="panel" aria-labelledby="roadmap-heading">
       <div class="panel-head">
-        <h2 id="roadmap-title">Platinum roadmap</h2>
-        <p class="panel-sub">A practical order for clearing all 55 trophies.</p>
+        <h2 id="roadmap-heading">Roadmap</h2>
+        <p class="panel-note">A suggested order; play your way.</p>
       </div>
-      <ol class="roadmap-list">
-        <li><strong>Play the story naturally.</strong> Complete chapter and mission trophies as they appear. Story trophies are marked in the list; use the spoiler toggle if you want descriptions hidden.</li>
-        <li><strong>Clean up activities early.</strong> Work on races, shooting ranges, stunts, and repeatable challenges while exploring so they do not pile up at the end.</li>
-        <li><strong>Track collectibles and exploration.</strong> Meditation spots, WAiNK It locations, vehicle discoveries, properties, and card sets are easiest when you keep a running checklist.</li>
-        <li><strong>Finish combat and money tasks.</strong> Bank vaults, wanted-level escapes, laundering, and spending goals can be planned around your free-roam route.</li>
-        <li><strong>Final sweep for platinum.</strong> After 100% completion and all misc trophies, "Vice Got a Price!" should unlock as the final platinum.</li>
+      <ol class="roadmap">
+        <li>
+          <h3>1. Play the story naturally</h3>
+          <p>Finish the main chapters and named story missions first. Keep the spoiler toggle on if you want the checklist to stay discreet during a first playthrough.</p>
+        </li>
+        <li>
+          <h3>2. Clean up activities and strangers</h3>
+          <p>After the credits, mop up stranger strands, races, shooting ranges, drone races, and other open-world activities. These stack well with exploration.</p>
+        </li>
+        <li>
+          <h3>3. Sweep collectibles and properties</h3>
+          <p>Track meditation spots, WAiNK locations, vehicles, card sets, and garage properties. Use the kind filter to focus on collectibles.</p>
+        </li>
+        <li>
+          <h3>4. Finish combat and free-roam misc</h3>
+          <p>Handle any remaining wanted-level, robbery, combat, or oddball trophies. Save 100% completion and the platinum for last.</p>
+        </li>
       </ol>
-      <p class="note"><strong>Missable flags:</strong> No trophies are marked missable based on the official trophy descriptions alone. If post-launch information changes this, verify against current patch notes and trusted trackers.</p>
     </section>
 
-    <section class="panel list-panel" aria-labelledby="list-title">
-      <div class="panel-head list-head">
-        <div>
-          <h2 id="list-title">Trophy list</h2>
-          <p class="panel-sub">Official names and descriptions are preserved exactly as listed.</p>
-        </div>
-        <p id="list-count" class="list-count">Showing 55 trophies</p>
+    <section class="panel" aria-labelledby="list-heading">
+      <div class="panel-head">
+        <h2 id="list-heading">All trophies</h2>
+        <p class="panel-note" id="visible-count">Showing 0 of 0</p>
       </div>
       <div class="table-wrap">
-        <table class="trophies">
+        <table class="trophy-table" id="trophy-table">
           <thead>
             <tr>
-              <th scope="col" class="col-done">Done</th>
-              <th scope="col">Trophy</th>
-              <th scope="col">Grade</th>
-              <th scope="col">Kind</th>
-              <th scope="col">Guide</th>
+              <th scope="col" class="col-done">Earned</th>
+              <th scope="col" class="col-name">Trophy</th>
+              <th scope="col" class="col-grade">Grade</th>
+              <th scope="col" class="col-kind">Kind</th>
+              <th scope="col" class="col-guide">Guide</th>
             </tr>
           </thead>
-          <tbody id="trophy-body"></tbody>
+          <tbody id="trophy-body">
+            <tr><td colspan="5" class="empty-cell">Loading…</td></tr>
+          </tbody>
         </table>
       </div>
     </section>
   </main>
 
-  <footer class="wrap footer">
-    <p>Grand Theft Auto VI and related marks are property of their respective owners. This is an unofficial fan project with original guide text and no official Rockstar assets.</p>
+  <footer class="site-footer wrap">
+    <p>Unofficial fan guide. Grand Theft Auto VI and related marks belong to their respective owners. No official assets are included; guide text is original and based on public trophy information.</p>
   </footer>
 
   <script type="module" src="app.js"></script>
