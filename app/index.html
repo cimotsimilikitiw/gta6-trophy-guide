@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grand Theft Auto VI — Trophy Guide &amp; Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#trophy-list">Skip to trophy list</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="eyebrow">Offline guide &amp; tracker</p>
+      <h1>Grand Theft Auto VI Trophy Guide</h1>
+      <p class="lede">Track all 55 PlayStation 5 trophies, filter by grade or kind, hide spoilers, and keep your progress saved in this browser.</p>
+      <div class="totals" aria-live="polite">
+        <p id="progress" class="progress">0 of 55 earned</p>
+        <p id="totals" class="totals-line">Totals: 55 trophies (1 platinum, 2 gold, 9 silver, 43 bronze).</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls-panel" aria-labelledby="controls-heading">
+      <h2 id="controls-heading">Filters and progress</h2>
+      <div class="controls-grid">
+        <label class="control">
+          <span>Grade</span>
+          <select id="grade-filter">
+            <option value="all">All grades</option>
+            <option value="platinum">Platinum</option>
+            <option value="gold">Gold</option>
+            <option value="silver">Silver</option>
+            <option value="bronze">Bronze</option>
+          </select>
+        </label>
+        <label class="control">
+          <span>Kind</span>
+          <select id="kind-filter">
+            <option value="all">All kinds</option>
+            <option value="story">Story</option>
+            <option value="activities">Activities</option>
+            <option value="collectibles">Collectibles / Exploration</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+        <label class="control control-check">
+          <input id="spoiler-toggle" type="checkbox">
+          <span>Hide spoiler guides</span>
+        </label>
+        <label class="control control-check">
+          <input id="earned-only" type="checkbox">
+          <span>Show earned only</span>
+        </label>
+        <div class="control actions">
+          <button id="export-btn" type="button">Export progress</button>
+          <label class="import-label" for="import-input">Import progress</label>
+          <input id="import-input" type="file" accept="application/json,.json">
+        </div>
+      </div>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="roadmap" aria-labelledby="roadmap-heading">
+      <h2 id="roadmap-heading">Roadmap to platinum</h2>
+      <ol class="roadmap-steps">
+        <li><strong>Play the story first.</strong> Complete the main chapters, finale, and named story missions. Story trophies form the natural backbone of the list and unlock systems you will need later.</li>
+        <li><strong>Clean up activities early.</strong> Work on races, shooting ranges, drone races, challenges, and combat trophies while you travel. Many can be combined with normal exploration.</li>
+        <li><strong>Track collectibles and locations.</strong> Exploration trophies like 100% completion, vehicles, WAiNK locations, meditation spots, and properties are easiest when you keep a running checklist.</li>
+        <li><strong>Do missable-feeling tasks carefully.</strong> Most trophies can be attempted in free roam, but read each guide before major story or heist moments and keep a manual save when possible.</li>
+        <li><strong>Finish the platinum mop-up.</strong> After story and major activities, compare your earned count against the 55-trophy total and clear remaining shop, robbery, property, and challenge trophies.</li>
+      </ol>
+      <p class="roadmap-note">Notes are based on official trophy names/descriptions and public trophy-listing sources. This guide is original text and is not affiliated with Rockstar Games or PlayStation.</p>
+    </section>
+
+    <section aria-labelledby="trophy-list-heading" class="list-section" id="trophy-list">
+      <div class="list-header">
+        <h2 id="trophy-list-heading">Trophy list</h2>
+        <p id="visible-count" class="visible-count">Showing 55 trophies</p>
+      </div>
+      <div class="table-wrap">
+        <table class="trophy-table">
+          <thead>
+            <tr>
+              <th scope="col">Earned</th>
+              <th scope="col">Trophy</th>
+              <th scope="col">Grade</th>
+              <th scope="col">Kind</th>
+              <th scope="col">Guide</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Grand Theft Auto VI is a trademark of its respective owners. This unofficial fan guide uses original text only and no official Rockstar assets.</p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
