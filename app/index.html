@@ -1,154 +1,188 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GTA VI Trophy Tracker</title>
-  <meta name="description" content="A fan-made Grand Theft Auto VI trophy checklist and roadmap with local progress tracking.">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Ledger — GTA VI trophy guide and tracker</title>
+<meta name="description" content="A spoiler-aware guide and tracker for all 55 Grand Theft Auto VI PlayStation 5 trophies: official names, descriptions and grades, a route to the platinum, missable flags and cited sources.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip-link" href="#trophy-table">Skip to trophy list</a>
+<a class="skip-link" href="#main">Skip to the guide</a>
 
-  <header class="site-header">
-    <div class="wrap header-grid">
-      <div>
-        <p class="eyebrow">Grand Theft Auto VI · PlayStation 5</p>
-        <h1>Trophy Tracker &amp; Roadmap</h1>
-        <p class="lede">
-          A practical checklist for all 55 trophies. Track what you have earned, filter by kind or grade,
-          and keep story details hidden until you are ready.
-        </p>
-      </div>
-      <aside class="summary-card" aria-label="Progress summary">
-        <p class="summary-label">Completion</p>
-        <p class="summary-value"><span id="earned-count">0</span><span class="summary-sep">/</span><span id="total-count">55</span></p>
-        <p class="summary-sub" id="earned-percent">0% complete</p>
-        <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0" aria-labelledby="progress-label">
-          <span id="progress-label" class="visually-hidden">Trophies earned</span>
-          <div class="progress-fill" id="progress-fill"></div>
-        </div>
-      </aside>
+<header class="masthead">
+  <div class="shell masthead-grid">
+    <div class="brand">
+      <p class="kicker">Grand Theft Auto VI · PlayStation 5 · 55 trophies</p>
+      <h1>Leonida Ledger</h1>
+      <p class="tagline">Every official trophy, its grade and its description, with a route to the platinum, the missable rows flagged, and the sources behind each guide. Spoilers stay behind a switch until you ask for them.</p>
+      <nav class="tabs" aria-label="Views">
+        <button type="button" class="tab is-active" data-view="checklist" aria-pressed="true">Checklist</button>
+        <button type="button" class="tab" data-view="roadmap" aria-pressed="false">Roadmap</button>
+        <button type="button" class="tab" data-view="save" aria-pressed="false">Save &amp; share</button>
+      </nav>
     </div>
-  </header>
 
-  <main class="wrap">
-    <section class="panel controls" aria-labelledby="controls-heading">
+    <aside class="ledger-card" aria-label="Platinum progress">
+      <p class="ledger-label">Platinum progress</p>
+      <p class="ledger-count"><span id="earned-count">0</span><span class="ledger-slash">/</span><span id="total-count">55</span></p>
+      <div class="meter" role="progressbar" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0" aria-labelledby="meter-label">
+        <span class="meter-label" id="meter-label">Trophies earned</span>
+        <span class="meter-fill" id="meter-fill"></span>
+      </div>
+      <p class="ledger-note" id="percent-note">0% complete · 55 to go</p>
+      <ul class="grade-list" id="grade-list"></ul>
+    </aside>
+  </div>
+</header>
+
+<main class="shell" id="main">
+  <section class="control-bar" aria-label="Filters and spoiler setting">
+    <label class="search-field">
+      <span class="field-label">Search</span>
+      <input id="search" type="search" placeholder="Trophy, description, mission or guide text" autocomplete="off" spellcheck="false">
+    </label>
+
+    <div class="chip-field">
+      <span class="field-label" id="kind-label">Kind</span>
+      <div class="chips" id="kind-chips" role="group" aria-labelledby="kind-label"></div>
+    </div>
+
+    <label class="select-field">
+      <span class="field-label">Grade</span>
+      <select id="grade-filter">
+        <option value="all">All grades</option>
+        <option value="platinum">Platinum</option>
+        <option value="gold">Gold</option>
+        <option value="silver">Silver</option>
+        <option value="bronze">Bronze</option>
+      </select>
+    </label>
+
+    <label class="switch-field">
+      <span class="field-label">Spoilers</span>
+      <span class="switch-row">
+        <input id="spoiler-toggle" type="checkbox" role="switch">
+        <span id="spoiler-text">Story names hidden</span>
+      </span>
+    </label>
+
+    <button type="button" class="ghost" id="clear-filters">Clear</button>
+  </section>
+
+  <section class="view" id="view-checklist" aria-labelledby="list-heading">
+    <div class="split">
+      <div class="panel list-panel">
+        <div class="panel-head">
+          <h2 id="list-heading">Trophy list</h2>
+          <p class="panel-note" id="visible-count">Loading…</p>
+        </div>
+        <div class="list-scroll">
+          <table class="trophy-table">
+            <thead>
+              <tr>
+                <th scope="col" class="col-tick">Earned</th>
+                <th scope="col">Trophy</th>
+                <th scope="col" class="col-grade">Grade</th>
+              </tr>
+            </thead>
+            <tbody id="trophy-rows">
+              <tr><td colspan="3" class="empty-cell">Loading trophies…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <aside class="panel detail-panel" id="detail" aria-live="polite" aria-label="Selected trophy"></aside>
+    </div>
+  </section>
+
+  <section class="view" id="view-roadmap" aria-labelledby="roadmap-heading" hidden>
+    <div class="panel">
       <div class="panel-head">
-        <h2 id="controls-heading">Filter trophies</h2>
-        <p class="panel-note">Progress is saved in this browser only.</p>
+        <h2 id="roadmap-heading">Roadmap to the platinum</h2>
+        <p class="panel-note">Six stages, built from the official descriptions; play them in this order and little doubles back.</p>
       </div>
-      <div class="control-grid">
-        <label class="field">
-          <span>Search</span>
-          <input id="search" type="search" placeholder="Name, description, guide..." autocomplete="off" spellcheck="false">
-        </label>
-        <label class="field">
-          <span>Kind</span>
-          <select id="kind-filter">
-            <option value="all">All kinds</option>
-            <option value="story">Story</option>
-            <option value="activities">Activities</option>
-            <option value="collectibles">Collectibles</option>
-            <option value="other">Other</option>
-          </select>
-        </label>
-        <label class="field">
-          <span>Grade</span>
-          <select id="grade-filter">
-            <option value="all">All grades</option>
-            <option value="platinum">Platinum</option>
-            <option value="gold">Gold</option>
-            <option value="silver">Silver</option>
-            <option value="bronze">Bronze</option>
-          </select>
-        </label>
-        <label class="field field-toggle">
-          <span>Story spoilers</span>
-          <span class="toggle-row">
-            <input id="hide-spoilers" type="checkbox">
-            <span>Hide story trophy names &amp; details</span>
-          </span>
-        </label>
-      </div>
-      <div class="control-footer">
-        <p id="status" class="status" role="status" aria-live="polite">Loading trophies…</p>
-        <button id="clear-filters" type="button" class="btn-ghost">Clear filters</button>
-      </div>
-    </section>
+      <div class="stage-grid" id="stage-grid"></div>
+    </div>
 
-    <section class="stats" aria-label="Trophy counts">
-      <article class="stat">
-        <p class="stat-label">Platinum</p>
-        <p class="stat-value" id="stat-platinum">0</p>
-      </article>
-      <article class="stat">
-        <p class="stat-label">Gold</p>
-        <p class="stat-value" id="stat-gold">0</p>
-      </article>
-      <article class="stat">
-        <p class="stat-label">Silver</p>
-        <p class="stat-value" id="stat-silver">0</p>
-      </article>
-      <article class="stat">
-        <p class="stat-label">Bronze</p>
-        <p class="stat-value" id="stat-bronze">0</p>
-      </article>
-    </section>
+    <div class="split roadmap-split">
+      <div class="panel">
+        <div class="panel-head">
+          <h2>Missable rows</h2>
+          <p class="panel-note" id="missable-count"></p>
+        </div>
+        <ul class="missable-list" id="missable-list"></ul>
+      </div>
+      <div class="panel">
+        <div class="panel-head">
+          <h2>How this order was built</h2>
+          <p class="panel-note">No claim without a source.</p>
+        </div>
+        <div class="method">
+          <p>Each stage is a reading of the official list, not a walkthrough: the chapter rows fix the story order, the counted rows fix the clean-up order, and the rows whose description names a partner or a venue go before the endgame because their moment can pass.</p>
+          <p>Where the official description names a mission, a count, a district or a venue, that detail is quoted in the guide and marked as stated. Where it does not, the guide says so and marks the row as a reading; no location or step is invented to fill the gap.</p>
+          <ul class="source-key">
+            <li><strong>Stated</strong> — the requirement is in the official description.</li>
+            <li><strong>Reading</strong> — the description is a joke or a riddle; the method is this guide's inference and is labelled as such.</li>
+            <li><strong>Count</strong> — the total PlayStation tracks for the trophy, from the same official list.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="panel" aria-labelledby="roadmap-heading">
+  <section class="view" id="view-save" aria-labelledby="save-heading" hidden>
+    <div class="split save-split">
+      <div class="panel">
+        <div class="panel-head">
+          <h2 id="save-heading">Save, export, import</h2>
+          <p class="panel-note">Progress lives in this browser only; nothing leaves the page.</p>
+        </div>
+        <div class="save-body">
+          <p class="save-lede">Ticks are written to <code>localStorage</code> on every change. Export writes a small JSON file you can keep or move to another browser; import reads one back. The app itself fetches nothing.</p>
+          <div class="button-row">
+            <button type="button" class="primary" id="export-button">Export progress</button>
+            <button type="button" class="ghost" id="import-button">Import progress</button>
+            <button type="button" class="ghost danger" id="reset-button">Reset all ticks</button>
+          </div>
+          <p class="save-status" id="save-status" role="status">Ready.</p>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head">
+          <h2>Share a progress link</h2>
+          <p class="panel-note">A link that opens this tracker with your ticks.</p>
+        </div>
+        <div class="save-body">
+          <p class="save-lede">The link carries only trophy ids, never anything else. Open it on another machine to load the same ticks into that browser's save.</p>
+          <input class="link-box" id="share-link" type="text" readonly aria-label="Progress link">
+          <p class="save-status" id="share-note">Earn something and the link updates.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
       <div class="panel-head">
-        <h2 id="roadmap-heading">Roadmap</h2>
-        <p class="panel-note">A suggested order; play your way.</p>
+        <h2>What this guide is</h2>
+        <p class="panel-note">An unofficial fan project.</p>
       </div>
-      <ol class="roadmap">
-        <li>
-          <h3>1. Play the story naturally</h3>
-          <p>Finish the main chapters and named story missions first. Keep the spoiler toggle on if you want the checklist to stay discreet during a first playthrough.</p>
-        </li>
-        <li>
-          <h3>2. Clean up activities and strangers</h3>
-          <p>After the credits, mop up stranger strands, races, shooting ranges, drone races, and other open-world activities. These stack well with exploration.</p>
-        </li>
-        <li>
-          <h3>3. Sweep collectibles and properties</h3>
-          <p>Track meditation spots, WAiNK locations, vehicles, card sets, and garage properties. Use the kind filter to focus on collectibles.</p>
-        </li>
-        <li>
-          <h3>4. Finish combat and free-roam misc</h3>
-          <p>Handle any remaining wanted-level, robbery, combat, or oddball trophies. Save 100% completion and the platinum for last.</p>
-        </li>
-      </ol>
-    </section>
-
-    <section class="panel" aria-labelledby="list-heading">
-      <div class="panel-head">
-        <h2 id="list-heading">All trophies</h2>
-        <p class="panel-note" id="visible-count">Showing 0 of 0</p>
+      <div class="method">
+        <p>The trophy names, descriptions and grades are shown as the official PlayStation 5 list publishes them, including the one name printed with asterisks. Everything else is written for this guide: the route, the missable flags and the readings are original, and each row names where its facts come from.</p>
+        <p>The look is original too: no Rockstar logo, box art or in-game screenshot is used anywhere in this app. The only images are the captures in <code>screenshots/</code>, which are renders of this page.</p>
       </div>
-      <div class="table-wrap">
-        <table class="trophy-table" id="trophy-table">
-          <thead>
-            <tr>
-              <th scope="col" class="col-done">Earned</th>
-              <th scope="col" class="col-name">Trophy</th>
-              <th scope="col" class="col-grade">Grade</th>
-              <th scope="col" class="col-kind">Kind</th>
-              <th scope="col" class="col-guide">Guide</th>
-            </tr>
-          </thead>
-          <tbody id="trophy-body">
-            <tr><td colspan="5" class="empty-cell">Loading…</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-  </main>
+    </div>
+  </section>
+</main>
 
-  <footer class="site-footer wrap">
-    <p>Unofficial fan guide. Grand Theft Auto VI and related marks belong to their respective owners. No official assets are included; guide text is original and based on public trophy information.</p>
-  </footer>
+<footer class="site-footer shell">
+  <p>Unofficial fan guide and tracker. Grand Theft Auto VI and related marks belong to their respective owners. Guide text is original; official trophy names and descriptions are quoted as published.</p>
+</footer>
 
-  <script type="module" src="app.js"></script>
+<input id="import-file" type="file" accept="application/json,.json" hidden>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script type="module" src="app.js"></script>
 </body>
 </html>

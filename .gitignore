@@ -1,4 +1,11 @@
+# Build output: main.ts writes the bundle here (app/, screenshots/, dossier.json).
 out/
+
+# Editor and OS noise.
 .DS_Store
+Thumbs.db
+*.swp
+
+# Node, if anything is ever installed here (the entry itself needs no packages).
 node_modules/
-.ruff_cache/
+package-lock.json

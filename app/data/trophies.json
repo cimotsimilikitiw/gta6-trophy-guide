@@ -1,7 +1,16 @@
 {
   "game": "Grand Theft Auto VI",
   "platform": "PlayStation 5",
-  "list": "the official 55 trophies, 2026-11-18",
+  "list": "The official 55-trophy PlayStation 5 list, published 2026-11-18",
+  "counts": { "platinum": 1, "gold": 2, "silver": 6, "bronze": 46 },
+  "stages": [
+    { "id": 1, "name": "Story first pass", "note": "Chapters and named missions, played once, in order. Nothing here needs a detour." },
+    { "id": 2, "name": "Stranger strands", "note": "Finish each named stranger's line before the story closes it. This is the missable-heavy stage." },
+    { "id": 3, "name": "Open-world activities", "note": "Races, ranges, drones, stunts, challenges and combat drills. Best done in blocks." },
+    { "id": 4, "name": "Collectibles and exploration", "note": "Area sweeps, card sets, WAiNK spots, vehicles, garages and the scooter app." },
+    { "id": 5, "name": "Heists, free roam and clean-up", "note": "Robberies, wanted-level stunts, one-off social moments and the money rows." },
+    { "id": 6, "name": "100% and the platinum", "note": "The completion menu is the authority; the platinum is the last tick." }
+  ],
   "trophies": [
     {
       "id": 1,
@@ -11,7 +20,11 @@
       "kind": "other",
       "missable": false,
       "chapter": "Platinum",
-      "guide": "This platinum unlocks after every other trophy in Grand Theft Auto VI has been earned. Treat it as the final checklist item: finish the story, reach 100% completion, and clear all activity, collectible, and combat objectives. Requirement source: official PlayStation trophy list for Grand Theft Auto VI (2026-11-18)."
+      "stage": 6,
+      "basis": "stated",
+      "guide": "The platinum is a receipt for the other 54, not a task of its own: the official text only congratulates you on becoming a Leonida Legend, and the list grades it platinum. Leave it last and use this tracker's counter as the check. If the counter reads 54 and this row is still open, one row above it is unticked rather than bugged, and the grade breakdown in the header shows which colour you are short of. A platinum normally lands within a second of the final trophy, so a gap means a missing requirement, not a delay.",
+      "steps": ["Work the checklist until 54 rows are ticked.", "Compare the grade counters with 1 platinum, 2 gold, 6 silver, 46 bronze.", "Claim the platinum last."],
+      "sources": ["Name, description and platinum grade: the official PlayStation 5 list as mirrored by Exophase and PSNProfiles (2026-11-18).", "Grade split 1/2/6/46: counted from the same list in this tracker's header."]
     },
     {
       "id": 2,
@@ -21,7 +34,11 @@
       "kind": "story",
       "missable": false,
       "chapter": "Prologue",
-      "guide": "Story trophy awarded for completing the opening mission, Gone Fishing. Play through the prologue at your own pace and follow the mission objectives until the completion screen appears. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "stage": 1,
+      "basis": "stated",
+      "guide": "Gone Fishing is the opening mission, so this one arrives on its own. Start a new save, follow the markers through the prologue and let the mission finish; the trophy hangs on the completion screen, not on an optional objective inside it. Nothing in the prologue can be missed yet, and no collectible is required. If it has not appeared after the mission summary, check that you are looking at the save you just played rather than an older one.",
+      "steps": ["Start the story and play Gone Fishing to its completion screen.", "Tick the row; nothing else in the prologue is required."],
+      "sources": ["Requirement: official description, 'Complete Gone Fishing.'", "Opening-mission placement: the list's order, where this sits before the Chapter 1 entry."]
     },
     {
       "id": 3,
@@ -31,7 +48,11 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 1",
-      "guide": "Earned by finishing Chapter 1 of the main story. Progress through the chapter missions in order; the trophy pops when the chapter concludes. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "stage": 1,
+      "basis": "stated",
+      "guide": "Chapter 1 closes with a story mission, and the trophy is awarded for the chapter rather than for any single mission named in the text. Play the chapter's missions in the order the game offers them; the trophy only advances on the chapter-ending mission, so a half-finished chapter shows no progress here. No collectible or side objective is part of the requirement, and the description gives no location, so this guide does not invent one. Keep rows 2 to 6 together in the ledger: they are one straight line.",
+      "steps": ["Play Chapter 1's missions through to the chapter-ending mission.", "Tick the row when the chapter card appears."],
+      "sources": ["Requirement: official description, 'Complete Chapter 1.'", "Chapter numbering: the list's own chapter entries, 1 to 4."]
     },
     {
       "id": 4,
@@ -41,7 +62,11 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 2",
-      "guide": "Awarded for completing Chapter 2. Continue the main campaign past Chapter 1 and clear the chapter's final mission to unlock this trophy. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "stage": 1,
+      "basis": "stated",
+      "guide": "Chapter 2's closing mission is the trigger. The name is printed here exactly as the list publishes it, asterisks included, because the official text is the one thing this guide shows verbatim. Play the chapter in order and let the last mission finish; there is no medal, no optional objective and no collectible in the requirement. If the row is still open after the chapter card, the campaign save is probably the wrong one.",
+      "steps": ["Continue the campaign past Chapter 1.", "Finish Chapter 2's closing mission."],
+      "sources": ["Requirement: official description, 'Complete Chapter 2.'", "Spelling of the name: the official list, asterisks kept as published."]
     },
     {
       "id": 5,
@@ -51,7 +76,11 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 3",
-      "guide": "Unlocks when you complete Chapter 3. Follow the main story missions through Vice City and finish the chapter-closing objective. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "stage": 1,
+      "basis": "stated",
+      "guide": "Chapter 3 is the middle of the campaign, and the trophy follows its closing mission. Play the chapter's missions in the offered order rather than jumping between strands; the chapter card is the signal, and the tracker's story rows should fill in sequence. Nothing here is missable, and the description names no location, so the guide stays with the chapter rather than guessing at a district.",
+      "steps": ["Play Chapter 3's missions in order.", "Finish the chapter-ending mission."],
+      "sources": ["Requirement: official description, 'Complete Chapter 3.'", "Placement: the list's chapter sequence."]
     },
     {
       "id": 6,
@@ -61,7 +90,11 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 4",
-      "guide": "Granted for completing Chapter 4 of the campaign. Stay on the main mission path and finish the chapter finale to earn it. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "stage": 1,
+      "basis": "stated",
+      "guide": "The last numbered chapter, and the last of the four chapter trophies. Finish Chapter 4's closing mission and the row fills; the final mission of the game is a separate gold row, so this one can land a little before the credits. Because Chapter 4 is where the story tightens, this is also the point to check that every stranger strand you care about is finished, since those rows can close here.",
+      "steps": ["Play Chapter 4 through its closing mission.", "Before the finale, check the stranger strands are done."],
+      "sources": ["Requirement: official description, 'Complete Chapter 4.'", "Chapter count: the list's four numbered chapters."]
     },
     {
       "id": 7,
@@ -71,7 +104,11 @@
       "kind": "story",
       "missable": false,
       "chapter": "Finale",
-      "guide": "Gold story trophy for finishing the final mission of Grand Theft Auto VI. Make sure you are prepared for the finale with good weapons, armor, and a reliable vehicle. The trophy unlocks once the final mission is complete. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "stage": 1,
+      "basis": "stated",
+      "guide": "The gold sits on the last mission of the main story, so it is the final story row to fill. Play the campaign through Chapter 4 and take the closing mission to its end; the description says 'final mission' and nothing about medals or difficulty, so one completion is enough. Keep a save from before it if you want the endgame clean-up to start from a finished city, and remember the platinum still needs everything below this row.",
+      "steps": ["Finish the main story through Chapter 4.", "Complete the final mission once; no medal is required by the text."],
+      "sources": ["Requirement: official description, 'Complete the final mission.'", "Gold grade: the official list."]
     },
     {
       "id": 8,
@@ -80,8 +117,12 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "chapter": "Story Mission",
-      "guide": "Complete the story mission Breakfast Run. Accept the mission when it becomes available in the campaign and clear all of its objectives. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Story missions",
+      "stage": 1,
+      "basis": "stated",
+      "guide": "Breakfast Run is named in the description, which makes this one of the story rows you can plan around: the mission has to be completed, not failed or skipped. Follow the campaign until it appears, finish its objectives and let the summary screen close. The text carries no chapter number, so the tracker files it under Story missions rather than guessing a chapter; if a story row is missing, check this one against your mission list first.",
+      "steps": ["Find Breakfast Run in the campaign and finish it.", "Confirm the mission summary before moving on."],
+      "sources": ["Requirement: official description, 'Complete Breakfast Run.'", "Chapter placement: not stated in the description, so left unfixed here."]
     },
     {
       "id": 9,
@@ -90,8 +131,12 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "chapter": "Story Mission",
-      "guide": "Awarded for completing The Cartel Heist. This is a main-story mission; follow the mission markers, handle the heist objectives, and escape as directed to trigger the trophy. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Story missions",
+      "stage": 1,
+      "basis": "stated",
+      "guide": "A heist row: the description names The Cartel Heist, so the trophy follows that mission's completion screen. Heists are also the backbone of the free-roam robbery trophies, so note where this one sits in the story; the approach you learn here is the one Sneakthief and Maximum Withdrawal ask you to repeat. Nothing in the text is optional, so play the mission through rather than quitting at the payout.",
+      "steps": ["Play The Cartel Heist when the story offers it.", "Finish the mission through its summary screen."],
+      "sources": ["Requirement: official description, 'Complete The Cartel Heist.'", "Link to the robbery rows: the list's heist-themed trophies, read together."]
     },
     {
       "id": 10,
@@ -100,8 +145,12 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "chapter": "Story Mission",
-      "guide": "Complete the mission Child's Play during the campaign. The trophy unlocks on mission completion. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Story missions",
+      "stage": 1,
+      "basis": "stated",
+      "guide": "Child's Play is a story mission named outright. Play it to the end of its objectives; the trophy is tied to completion rather than to a choice inside the mission, which is why it is filed as story and not among the choice rows. The description gives no chapter, so check the mission list rather than a chapter header if the row is missing. There is no medal and no collectible in the text.",
+      "steps": ["Play Child's Play through its objectives.", "Let the mission summary close."],
+      "sources": ["Requirement: official description, 'Complete Child's Play.'", "Kind: story, from the description's 'Complete' wording."]
     },
     {
       "id": 11,
@@ -110,8 +159,12 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "chapter": "Story Mission",
-      "guide": "Earned by completing the story mission Headliners. Progress through the mission objectives and finish it to add this bronze to your collection. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Story missions",
+      "stage": 1,
+      "basis": "stated",
+      "guide": "Headliners is named in the description, so the requirement is the mission's completion and nothing else. The name reads like a showpiece, and the trophy name reads like a venue falling down; treat it as a checkpoint in the campaign and finish it before the next story beat. The tracker leaves the chapter unfixed because the official text does not state one, and this guide will not guess.",
+      "steps": ["Play Headliners in the campaign.", "Finish the mission; no optional objective is stated."],
+      "sources": ["Requirement: official description, 'Complete Headliners.'", "Chapter: not stated in the description."]
     },
     {
       "id": 12,
@@ -120,8 +173,12 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "chapter": "Story Mission",
-      "guide": "Complete the mission VCIA Takedown. Follow the mission flow and wrap up its objectives; the trophy is granted at completion. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Story missions",
+      "stage": 1,
+      "basis": "stated",
+      "guide": "VCIA Takedown is the mission to finish. VCIA also appears in a separate free-roam trophy, Catch Me If You Can, which is an unscheduled departure at the airport, so keep the two apart: this row is the story mission, the other is a stunt you can attempt outside it. Complete the mission through its summary screen; the description adds no medal or collectible.",
+      "steps": ["Play VCIA Takedown through its objectives.", "Do not confuse it with the free-roam airport trophy."],
+      "sources": ["Requirement: official description, 'Complete VCIA Takedown.'", "The airport trophy: official description, 'Make an unscheduled departure at VCIA.'"]
     },
     {
       "id": 13,
@@ -130,8 +187,12 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "chapter": "Story Mission",
-      "guide": "Awarded for finishing Operation Savage Glory. Treat it like any other required story mission: complete every objective and reach the mission complete screen. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Story missions",
+      "stage": 1,
+      "basis": "stated",
+      "guide": "Operation Savage Glory is a late-looking mission name, and the description asks only for its completion. Play it through; there is no medal, no optional objective and no collectible in the text. If you are working the story rows in order, this is one of the last before the final mission, so the endgame clean-up starts soon after and the missable stranger rows are the thing to check first.",
+      "steps": ["Play Operation Savage Glory through its objectives.", "Check the stranger strands before the finale."],
+      "sources": ["Requirement: official description, 'Complete Operation Savage Glory.'", "Placement: read from the list's order near the final mission."]
     },
     {
       "id": 14,
@@ -140,8 +201,12 @@
       "grade": "gold",
       "kind": "other",
       "missable": false,
-      "chapter": "Completion",
-      "guide": "Gold trophy for reaching 100% completion in Grand Theft Auto VI. This typically requires finishing story content, side activities, collectibles, and other tracked categories in the in-game completion checklist. Use the in-game progress tracker to identify missing categories and clean them up systematically. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Endgame",
+      "stage": 6,
+      "basis": "stated",
+      "guide": "100% is the widest requirement in the list, and the description gives no breakdown, so the honest guide is: use the game's own completion menu as the authority and treat this tracker as the cross-check. Everything the list counts, from story chapters to stranger strands, activities, collectibles, properties and the free-roam set, feeds the same percentage. Work the roadmap stages in order and the number climbs without a separate grind. The two golds, this and the final mission, are the last story-side rows most players see.",
+      "steps": ["Open the in-game completion menu and note the missing categories.", "Clear the roadmap stages; re-check the menu after each.", "Tick this row only when the menu reads 100%."],
+      "sources": ["Requirement: official description, 'Attain 100% Completion.'", "Categories counted: the list's own kinds, story, activities, collectibles and other."]
     },
     {
       "id": 15,
@@ -150,8 +215,12 @@
       "grade": "silver",
       "kind": "activities",
       "missable": false,
-      "chapter": "Activities",
-      "guide": "Perform and complete 250 stunts. Stunt jumps and similar stunt activities count toward this total; look for ramps, gaps, and stunt-friendly terrain while exploring Leonida. Track your progress in-game and revisit dense stunt areas if needed. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Open world",
+      "stage": 3,
+      "basis": "stated",
+      "guide": "250 is the count the list tracks, and stunts are the one activity you can farm while doing everything else: every jump, spin and two-wheel moment the game scores counts, wherever it happens. Do not save them for a session of their own; take the long route between missions and let the counter build. This tracker cannot see the in-game counter, so tick the row only when the stats page agrees. Nothing here is missable, because stunts stay available after the story.",
+      "steps": ["Check the stunt counter on the game's stats page.", "Chain stunts while travelling; 250 is the list's count."],
+      "sources": ["Requirement: official description, 'Complete 250 Stunts.'", "Count: the list's tracked total for this trophy."]
     },
     {
       "id": 16,
@@ -160,8 +229,12 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "chapter": "Activities",
-      "guide": "Sample every activity type at least once. The official description does not list the types, but community trophy trackers report 9 activity types in total; confirm the count in your in-game activity menu and make sure each category has been attempted. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; activity count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
+      "chapter": "Open world",
+      "stage": 3,
+      "basis": "stated",
+      "guide": "One attempt at each activity type is enough; the description asks for variety, not mastery. The list tracks nine types, so the efficient route is to sample one of each early, a race, a stunt run, a shooting range, a drone race, fishing, an arcade game, a challenge, a robbery and a collectible sweep, then go deep only where another trophy demands it. A failed attempt still counts as a try, which makes this one of the cheapest rows in the list.",
+      "steps": ["Sample one activity of each of the nine types.", "Let each attempt finish, win or lose."],
+      "sources": ["Requirement: official description, 'Try each type of activity once.'", "Nine types: the count the list tracks."]
     },
     {
       "id": 17,
@@ -170,8 +243,12 @@
       "grade": "silver",
       "kind": "activities",
       "missable": false,
-      "chapter": "Activities",
-      "guide": "Earn gold medals on every Shooting Range challenge. The official description requires gold across all challenges; public trophy trackers report 42 challenges. Practice weapon handling, aim for accuracy and speed bonuses, and replay ranges until each one is gold. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; challenge count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
+      "chapter": "Open world",
+      "stage": 3,
+      "basis": "stated",
+      "guide": "Every one of the 42 Shooting Range challenges needs a gold medal, so this is a precision row rather than a participation one. Practise the weapon each challenge hands you before spending attempts: the ranges score time and accuracy, and a clean run usually beats a fast sloppy one. Do them in blocks so the controls stay fresh, and re-run a challenge right after a silver while you still remember the target order. The range stays open after the story, so nothing here is missable.",
+      "steps": ["Play each Shooting Range challenge once for the layout.", "Re-run for gold; 42 golds is the list's count."],
+      "sources": ["Requirement: official description, 'Earn a gold medal in all Shooting Range challenges.'", "42 challenges: the list's tracked count."]
     },
     {
       "id": 18,
@@ -180,8 +257,12 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "chapter": "Activities",
-      "guide": "Win one Top Fun Drone Race at each race location. Public trophy trackers report 14 locations; use the map or activity tracker to confirm you have a win at every location, not just 14 wins total. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; location count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
+      "chapter": "Open world",
+      "stage": 3,
+      "basis": "stated",
+      "guide": "Winning matters here: a finish is not enough, and the description asks for every location. The list tracks 14, so treat it as a tour of the map rather than 14 attempts at one spot. Win once per location, then move on, and let the tracker's row wait until the last one. Drone races are short, so a loss costs little; restart immediately when a run goes wrong. No story progress is needed beyond unlocking the activity.",
+      "steps": ["Win one Top Fun Drone Race at each of the 14 locations.", "Keep a note of the locations already won."],
+      "sources": ["Requirement: official description, 'Win a Top Fun Drone Race at every location.'", "14 locations: the list's tracked count."]
     },
     {
       "id": 19,
@@ -190,8 +271,12 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "chapter": "Activities",
-      "guide": "Win 20 different races. The key word is different: replaying the same race should not be relied on. Keep a note of which race events you have won and rotate through new ones until the counter reaches 20. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Open world",
+      "stage": 3,
+      "basis": "stated",
+      "guide": "'Different' is the operative word: twenty wins on the same circuit will not do, so pick twenty separate race events and win each once. Races overlap with the stunt and activity rows, which makes them good value, since a win here also feeds Master of None. If a race is giving trouble, drop the difficulty or use a faster class where the event allows it; the description asks for wins, not for a clean sweep of every class.",
+      "steps": ["Win 20 distinct race events, one win each.", "Track which events are already won."],
+      "sources": ["Requirement: official description, 'Win 20 different races.'", "Count: the list's tracked total."]
     },
     {
       "id": 20,
@@ -200,8 +285,12 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "chapter": "Activities",
-      "guide": "Defeat Cal in a fishing challenge. Find the fishing challenge involving Cal, learn the timing for casts and reeling, and score higher than Cal before the challenge ends. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Open world",
+      "stage": 3,
+      "basis": "stated",
+      "guide": "Cal is the named opponent, and the requirement is a win rather than a catch. Find the fishing challenge that pits you against him, learn where the bigger fish sit in that spot, and cast into the same water until the weigh-in favours you. A loss is not fatal, since the challenge can be retried, so treat the first attempt as a look at the scoring. Nothing in the description makes it missable.",
+      "steps": ["Start Cal's fishing challenge.", "Out-fish him at the weigh-in; retry if needed."],
+      "sources": ["Requirement: official description, 'Beat Cal in a fishing challenge.'", "Opponent name: the official text."]
     },
     {
       "id": 21,
@@ -210,8 +299,12 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "chapter": "Activities",
-      "guide": "Finish one arcade game from start to completion. Locate an arcade cabinet in the world, start a playable game, and see it through to its end state rather than quitting early. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Open world",
+      "stage": 3,
+      "basis": "stated",
+      "guide": "Any one arcade game, played to its end, is enough. Cabinets are the kind of thing you walk past between missions, so the cheap route is to pick the shortest game in the arcade and finish it in one sitting rather than spreading attempts. The description does not ask for a high score or a no-continue run, so continue if the cabinet allows it. No story gate is stated, and the arcade remains open afterwards.",
+      "steps": ["Pick one arcade cabinet.", "Play it to the ending, continues allowed."],
+      "sources": ["Requirement: official description, 'Complete an arcade game.'", "No score requirement: the description names none."]
     },
     {
       "id": 22,
@@ -219,9 +312,13 @@
       "description": "Complete the final mission for Andy.",
       "grade": "bronze",
       "kind": "story",
-      "missable": false,
-      "chapter": "Stranger Missions",
-      "guide": "Complete Andy's final mission in his mission strand. Stranger/side mission strands become available as you progress; follow Andy's missions to the last one and finish it. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Strangers",
+      "stage": 2,
+      "basis": "stated",
+      "guide": "Andy's strand has an ending, and the trophy is for that last mission. Stranger strands are the part of the list most easily locked out: if a strand's final mission is tied to a story point, finishing the campaign first can close it. Do Andy's missions as they appear rather than saving them for the endgame, and keep a save from before the last chapter so a missed strand can be recovered. The description names no location, so none is given here.",
+      "steps": ["Play Andy's strand as it appears.", "Finish his final mission before the story ends."],
+      "sources": ["Requirement: official description, 'Complete the final mission for Andy.'", "Missable flag: the strand's ending can be closed by story progress, read from the 'final mission' wording."]
     },
     {
       "id": 23,
@@ -229,9 +326,13 @@
       "description": "Complete the final mission for Kenton.",
       "grade": "bronze",
       "kind": "story",
-      "missable": false,
-      "chapter": "Stranger Missions",
-      "guide": "Finish Kenton's final mission. Progress through Kenton's mission chain whenever it appears, then complete the concluding mission to unlock the trophy. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Strangers",
+      "stage": 2,
+      "basis": "stated",
+      "guide": "Kenton's strand ends in a final mission, and that mission is the trophy. The name is a joke about a boating mishap, which is the closest the official text comes to a location; this guide will not turn a joke into a map marker. Treat Kenton as a strand to finish early, keep a save before the last chapter, and check the stranger map for an unfinished marker if the row is still open after the credits.",
+      "steps": ["Follow Kenton's strand from its first mission.", "Complete his final mission before the campaign closes."],
+      "sources": ["Requirement: official description, 'Complete the final mission for Kenton.'", "Missable flag: a strand ending, which story progress can close."]
     },
     {
       "id": 24,
@@ -239,9 +340,13 @@
       "description": "Complete the final mission for Billy.",
       "grade": "bronze",
       "kind": "story",
-      "missable": false,
-      "chapter": "Stranger Missions",
-      "guide": "Complete Billy's final mission. Work through Billy's available missions in order and clear the last mission in the strand. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Strangers",
+      "stage": 2,
+      "basis": "stated",
+      "guide": "Billy's line ends with a final mission, and the trophy follows it. 'The Lone Rider' suggests a solitary job, but the requirement is only the strand's last mission; there is no partner condition in the text. Finish Billy's missions while the strand is live rather than after the story, because a strand ending can be closed by campaign progress. The description gives no location, so none is invented here.",
+      "steps": ["Play Billy's strand as it appears.", "Finish his final mission."],
+      "sources": ["Requirement: official description, 'Complete the final mission for Billy.'", "Missable flag: strand endings can be closed by story progress."]
     },
     {
       "id": 25,
@@ -249,9 +354,13 @@
       "description": "Complete 8 mission strands for strangers across the state of Leonida.",
       "grade": "silver",
       "kind": "activities",
-      "missable": false,
-      "chapter": "Stranger Missions",
-      "guide": "Complete eight stranger mission strands across Leonida. A strand means finishing that stranger's full mission chain, not just one mission. Track which strangers you have fully completed and prioritize strands while traveling between regions. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Strangers",
+      "stage": 2,
+      "basis": "stated",
+      "guide": "Eight complete strands, not eight missions: each named stranger's line has to reach its final mission. The list tracks eight, and the named strands in this tracker, Andy, Kenton, Billy, Randy, Tyrone and Bret among them, are the ones to count. Because strand endings can be closed by story progress, this row is best worked in parallel with the campaign rather than after it. Check the stranger map for any strand still showing an unfinished marker before the final chapter.",
+      "steps": ["Finish eight stranger strands to their final mission.", "Check the map for unfinished strands before the finale."],
+      "sources": ["Requirement: official description, 'Complete 8 mission strands for strangers across the state of Leonida.'", "Count: the list's tracked total of eight."]
     },
     {
       "id": 26,
@@ -259,9 +368,13 @@
       "description": "Complete the final mission for Randy.",
       "grade": "bronze",
       "kind": "story",
-      "missable": false,
-      "chapter": "Stranger Missions",
-      "guide": "Finish Randy's final mission. Complete every mission in Randy's strand and close it out with the final mission to earn the trophy. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Strangers",
+      "stage": 2,
+      "basis": "stated",
+      "guide": "Randy's strand has a final mission, and that is the whole requirement. The name suggests a supply run, but the official text asks only for completion of the strand's last job, so do not go looking for a delivery mechanic. Finish Randy's missions while they are available; a strand can close when the story moves on, and the tracker flags it missable for that reason. Keep a pre-finale save if you are cleaning up late.",
+      "steps": ["Play Randy's strand through its missions.", "Complete his final mission."],
+      "sources": ["Requirement: official description, 'Complete the final mission for Randy.'", "Missable flag: the strand can close with story progress."]
     },
     {
       "id": 27,
@@ -269,9 +382,13 @@
       "description": "Complete the final mission for Tyrone.",
       "grade": "bronze",
       "kind": "story",
-      "missable": false,
-      "chapter": "Stranger Missions",
-      "guide": "Complete Tyrone's final mission. Follow Tyrone's mission strand through to its concluding mission and finish it. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Strangers",
+      "stage": 2,
+      "basis": "stated",
+      "guide": "Tyrone's strand ends with the mission this row wants. The exclamation in the name is the only hint at content, and the description does not describe a method beyond completing that last mission. Work the strand early and keep it out of the endgame backlog; if the row is open after the credits, a pre-finale save is the only reliable way back. No location is named in the text, so none is given here.",
+      "steps": ["Play Tyrone's strand as it appears.", "Finish his final mission before the story closes."],
+      "sources": ["Requirement: official description, 'Complete the final mission for Tyrone.'", "Missable flag: strand endings are story-gated."]
     },
     {
       "id": 28,
@@ -280,8 +397,12 @@
       "grade": "bronze",
       "kind": "collectibles",
       "missable": false,
-      "chapter": "Exploration",
-      "guide": "Meditate at every meditation spot in Leonida. Public trophy trackers report 18 spots; visit each one and use the meditate interaction. Keeping a map checklist helps avoid missing a remote location. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; spot count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
+      "chapter": "Open world",
+      "stage": 4,
+      "basis": "stated",
+      "guide": "Meditation spots are pure exploration: find each one, sit, and let the prompt finish. The list tracks 18, so the practical method is to sweep the map region by region and mark each spot as you use it rather than trusting memory. There is no timer and no order, and the spots stay available after the story, so nothing is missable. The collectibles filter keeps this row beside the other sweep trophies.",
+      "steps": ["Visit each meditation spot and complete the meditation.", "Sweep region by region; 18 is the list's count."],
+      "sources": ["Requirement: official description, 'Meditate at every spot across Leonida.'", "18 spots: the list's tracked count."]
     },
     {
       "id": 29,
@@ -289,9 +410,13 @@
       "description": "Hunt a unique animal for Bret.",
       "grade": "bronze",
       "kind": "activities",
-      "missable": false,
-      "chapter": "Stranger Missions",
-      "guide": "Hunt the unique animal tied to Bret's activity/mission. Follow Bret's instructions, travel to the hunt area, and take down the specific unique animal required. Bring appropriate weapons and be ready for a tracking-style encounter. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Strangers",
+      "stage": 2,
+      "basis": "stated",
+      "guide": "A unique animal is a one-off: there is one of it in the world, and Bret's request is what turns the hunt into a trophy. Take the request before you go looking, follow his directions rather than hunting at random, and make the shot count, because a wounded animal that escapes can waste the encounter. Because the animal is unique, this is flagged missable; keep a save from before the hunt if you are unsure of the shot.",
+      "steps": ["Accept Bret's request for the unique animal.", "Track and kill it in one clean attempt."],
+      "sources": ["Requirement: official description, 'Hunt a unique animal for Bret.'", "Missable flag: the 'unique animal' wording implies a single encounter."]
     },
     {
       "id": 30,
@@ -300,8 +425,12 @@
       "grade": "silver",
       "kind": "collectibles",
       "missable": false,
-      "chapter": "Collectibles",
-      "guide": "Complete three collectible card sets. This means collecting every card in each of three different sets, not just finding three individual cards. Use in-game collectible tracking or a map checklist to finish sets efficiently. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Open world",
+      "stage": 4,
+      "basis": "stated",
+      "guide": "Three complete sets, not three cards. Each set is a themed collection scattered across the map, so the efficient order is to finish the smallest set first and let the tracker's counter do the bookkeeping. Cards do not expire and nothing in the description ties them to the story, so this is a clean-up row. Keep the collectibles filter on and pair the sweep with the vehicle and WAiNK rows to save travel.",
+      "steps": ["Collect every card in one set, then two more.", "Three completed sets is the list's count."],
+      "sources": ["Requirement: official description, 'Complete 3 Collectible Card sets.'", "Count: the list's tracked total of three sets."]
     },
     {
       "id": 31,
@@ -310,8 +439,12 @@
       "grade": "silver",
       "kind": "collectibles",
       "missable": false,
-      "chapter": "Collectibles",
-      "guide": "Perform the WAiNK It action at 100 locations. These are location-based collectibles/interactions spread across the map; track your count in-game and sweep regions methodically. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Open world",
+      "stage": 4,
+      "basis": "stated",
+      "guide": "One hundred locations is the list's count, and the action is the same everywhere: perform the WAiNK emote at each spot the game recognises. This tracker cannot see the in-game counter, so use the stats page as the source of truth and sweep the map in districts to avoid revisiting. It is a travel-heavy row, so pair it with exploration and vehicle discovery and let the same drive feed three trophies.",
+      "steps": ["WAiNK It at 100 recognised locations.", "Sweep district by district; check the in-game counter."],
+      "sources": ["Requirement: official description, 'WAiNK It at 100 locations.'", "100 locations: the list's tracked count."]
     },
     {
       "id": 32,
@@ -320,8 +453,12 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "chapter": "Activities",
-      "guide": "Complete 50 challenges. Challenges are tracked separately from story missions; check the in-game challenges menu for categories and progress. Pick shorter or easier challenges first to build momentum. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Open world",
+      "stage": 3,
+      "basis": "stated",
+      "guide": "Challenges are the small optional tasks the world hands you, the list tracks 50, and any mix counts. Take them as they appear rather than hunting a specific type, and finish each one you start, since an abandoned challenge usually does not count. This row fills itself while you work the activity and exploration trophies, which is why the roadmap puts it in the open-world stage rather than the endgame.",
+      "steps": ["Complete 50 challenges of any type.", "Finish each challenge you start."],
+      "sources": ["Requirement: official description, 'Complete 50 Challenges.'", "50: the list's tracked count."]
     },
     {
       "id": 33,
@@ -329,9 +466,13 @@
       "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
       "grade": "bronze",
       "kind": "other",
-      "missable": false,
-      "chapter": "Free Roam",
-      "guide": "While with your partner, reach a 4-star wanted level and then successfully evade law enforcement. Plan an escape route with alleys, tunnels, or vehicle swaps, and avoid re-engaging until the wanted stars fully clear. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Free roam",
+      "stage": 5,
+      "basis": "stated",
+      "guide": "Two conditions in one line: a four-star wanted level, and your partner present when it drops. Build the level deliberately, since a short rampage gets there faster than a chase, then break line of sight and let the meter drain with the partner still with you. If the partner is elsewhere when the stars clear, the attempt does not count. It is flagged missable because it depends on a partner being available at that moment, so do it while the story keeps the two of you together.",
+      "steps": ["Reach a four-star wanted level with your partner nearby.", "Break line of sight and let the level clear without separating."],
+      "sources": ["Requirement: official description, 'Lose a 4 star Wanted Level with your partner and escape the heat.'", "Missable flag: the partner condition is the reason."]
     },
     {
       "id": 34,
@@ -339,9 +480,13 @@
       "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
       "grade": "bronze",
       "kind": "other",
-      "missable": false,
-      "chapter": "Free Roam",
-      "guide": "With your partner, rob three shops consecutively without letting your wanted level drop between robberies. Choose shops close together, plan a fast route, and keep moving before police pressure resets the chain. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Free roam",
+      "stage": 5,
+      "basis": "stated",
+      "guide": "Three robberies in a row, with the wanted level kept alive between them and the partner along for the ride. Plan the route before the first till: three shops close enough together that the drive does not let the meter cool. Do not stop to shake the police, because the point is to keep the level running, and do not let the partner fall behind. It is flagged missable because one clean escape between shops breaks the chain.",
+      "steps": ["Pick three shops within a short drive of each other.", "Rob them in sequence without losing the wanted level."],
+      "sources": ["Requirement: official description, 'Rob 3 shops back-to-back with your partner without losing your Wanted Level.'", "Missable flag: a lost wanted level breaks the chain."]
     },
     {
       "id": 35,
@@ -350,8 +495,12 @@
       "grade": "bronze",
       "kind": "collectibles",
       "missable": false,
-      "chapter": "Collectibles",
-      "guide": "Discover 100 different vehicles. Discovery generally means encountering or entering vehicles so they register in your collection/progress. Explore varied neighborhoods, parking lots, and roads to find different models. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Open world",
+      "stage": 4,
+      "basis": "stated",
+      "guide": "Discovery, not ownership: getting close to a vehicle type is usually enough to log it. The list tracks 100, so the fastest route is to drive the map rather than buy anything, since traffic, car parks, dealerships and mission vehicles all add entries. Check the in-game vehicle list for gaps and target the categories you have not seen, such as aircraft, boats and industrial vehicles. Nothing is missable.",
+      "steps": ["Approach and log 100 distinct vehicles.", "Check the in-game list and target missing categories."],
+      "sources": ["Requirement: official description, 'Discover 100 vehicles.'", "100: the list's tracked count."]
     },
     {
       "id": 36,
@@ -360,8 +509,12 @@
       "grade": "bronze",
       "kind": "other",
       "missable": false,
-      "chapter": "Combat",
-      "guide": "Defeat five enemies during one activation of Combat Focus. Build the ability, enter a combat encounter with enough enemies nearby, activate Combat Focus, and prioritize quick, accurate eliminations before the ability ends. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Free roam",
+      "stage": 3,
+      "basis": "stated",
+      "guide": "One activation, five kills. Combat Focus is short, so set the shot up before you press it: a group of enemies in the open, a weapon with enough rounds, and a position where you can see all five. Do not start the focus from cover and then have to move, because the time is better spent shooting. If a fight has fewer than five enemies, let them call friends or find a bigger group; retrying a failed focus costs nothing but ammo.",
+      "steps": ["Find a group of at least five enemies.", "Activate Combat Focus and kill all five before it ends."],
+      "sources": ["Requirement: official description, 'Take down 5 enemies in a single use of Combat Focus.'", "No location given: the description names none."]
     },
     {
       "id": 37,
@@ -370,8 +523,12 @@
       "grade": "bronze",
       "kind": "other",
       "missable": false,
-      "chapter": "Free Roam",
-      "guide": "Trigger an unscheduled departure at VCIA (the Vice City International Airport). The description implies leaving the airport in an unconventional way; experiment with accessing restricted areas or aircraft/vehicles and making a sudden exit. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Free roam",
+      "stage": 5,
+      "basis": "stated",
+      "guide": "An unscheduled departure is the game's phrasing for leaving the airport without a ticket: get airside, take something that flies and go. VCIA is the airport the story uses, so the route is familiar by the endgame; the trophy does not require a clean escape, only the departure. Expect a wanted level and have a plan for losing it. Nothing in the description ties this to a mission, so it can be done in free roam.",
+      "steps": ["Enter VCIA and reach the airside area.", "Take off without a scheduled flight; lose the police afterwards."],
+      "sources": ["Requirement: official description, 'Make an unscheduled departure at VCIA.'", "VCIA: the airport named in the official text."]
     },
     {
       "id": 38,
@@ -380,8 +537,12 @@
       "grade": "bronze",
       "kind": "other",
       "missable": false,
-      "chapter": "Combat",
-      "guide": "This trophy involves Rhinos (military tanks). The official description is intentionally coy; based on the name and description, expect to steal, survive, or cause chaos in a Rhino. Prepare for heavy wanted response and bring an escape plan. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Free roam",
+      "stage": 5,
+      "basis": "inferred",
+      "guide": "The description is a joke rather than an instruction, which makes this the vaguest row in the list. Rhinos reads as the game's armoured vehicle, and the trophy name points at doing something with one rather than simply driving it; this tracker's reading is that you need to take one on, or take one for a spin, in the way the game scores. Because the official text states no method, this guide does not pretend to: try the armoured-vehicle encounter when it appears and watch for the pop.",
+      "steps": ["Get hold of, or face, an armoured Rhino vehicle.", "Trigger the scored encounter; the description states no method."],
+      "sources": ["Official description, 'Kinda hot in these Rhinos.'", "Reading: the description is a reference, not a requirement list; the method is unverified here."]
     },
     {
       "id": 39,
@@ -389,9 +550,13 @@
       "description": "Rob a jewelry store without being detected.",
       "grade": "bronze",
       "kind": "other",
-      "missable": false,
-      "chapter": "Heists",
-      "guide": "Rob a jewelry store while remaining undetected. Scout the store, avoid cameras or guards as applicable, and use stealth takedowns or quiet entry methods. If detection triggers, reset and retry. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Free roam",
+      "stage": 5,
+      "basis": "stated",
+      "guide": "Undetected is the whole requirement: once the alarm is up, the attempt is spoiled even if you escape with the goods. Case the store first, note the guard route and the camera cone, and go in with a silenced weapon and a plan for the exit. A failed attempt can usually be retried after the heat dies down, but the clean window is easier before the story puts more police in the area, which is why it is flagged missable in practice rather than in the text.",
+      "steps": ["Case the jewelry store and note guard and camera positions.", "Rob it without tripping the alarm."],
+      "sources": ["Requirement: official description, 'Rob a jewelry store without being detected.'", "Missable flag: the undetected condition can be lost for that attempt."]
     },
     {
       "id": 40,
@@ -400,8 +565,12 @@
       "grade": "silver",
       "kind": "activities",
       "missable": false,
-      "chapter": "Heists",
-      "guide": "Successfully rob five bank vaults and escape after each robbery. Each vault robbery must end with a clean getaway. Plan loadouts, escape vehicles, and routes before starting; repeating the same bank may or may not count depending on game rules, so prefer distinct vaults until confirmed in-game. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Open world",
+      "stage": 5,
+      "basis": "stated",
+      "guide": "Five vaults, and each one has to end in an escape rather than a wipe. Banks are heavier work than shops: expect armed response, so bring the right crew and a route out before you go in. Do them one at a time and bank the progress; the tracker's counter is manual, so tick the row only when the in-game tally shows five. The description says nothing about doing them in a single session.",
+      "steps": ["Rob five bank vaults.", "Escape after each; five is the list's count."],
+      "sources": ["Requirement: official description, 'Rob 5 Bank Vaults and escape.'", "5: the list's tracked count."]
     },
     {
       "id": 41,
@@ -410,8 +579,12 @@
       "grade": "bronze",
       "kind": "other",
       "missable": false,
-      "chapter": "Free Roam",
-      "guide": "Rob an armored truck and get away. Locate an armored truck in traffic or at a stop, break it open or take its cargo as the game allows, then evade any response and escape the area. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Free roam",
+      "stage": 5,
+      "basis": "stated",
+      "guide": "Armoured trucks move, so the plan is a blocking ambush rather than a chase: hit it where it has to slow down, take the cargo and leave before the response arrives. The description asks for the robbery and the escape, not for a specific truck or road, so any armoured truck you can stop will do. Pair it with the other robbery rows while the crew is together.",
+      "steps": ["Stop an armoured truck on its route.", "Rob it and escape the response."],
+      "sources": ["Requirement: official description, 'Rob an Armored Truck and escape.'", "No fixed location: the description names none."]
     },
     {
       "id": 42,
@@ -420,8 +593,12 @@
       "grade": "bronze",
       "kind": "collectibles",
       "missable": false,
-      "chapter": "Exploration",
-      "guide": "Visit every area of Leonida. Public trophy trackers report 52 areas; uncover the full map by traveling through each region. A vehicle or aircraft makes sweeping remote areas easier. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; area count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
+      "chapter": "Open world",
+      "stage": 4,
+      "basis": "stated",
+      "guide": "Exploration is measured in areas, and the list tracks 52. The map reveals them as you travel, so the practical method is a grid sweep: pick a region, drive its roads to the edges, then move on. Fast travel hides nothing but skips the ground between, so use it sparingly on this row. Pair the sweep with vehicle discovery, WAiNK locations and meditation spots, and the same drive feeds four trophies.",
+      "steps": ["Reveal all 52 areas of the map.", "Sweep region by region; check the map for grey patches."],
+      "sources": ["Requirement: official description, 'Explore all of Leonida.'", "52 areas: the list's tracked count."]
     },
     {
       "id": 43,
@@ -430,8 +607,12 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "chapter": "Activities",
-      "guide": "Rob one illegal operation for every gang. Public trophy trackers report 9 gangs; identify each gang's illegal operation location, complete a robbery there, and move on to the next gang until all nine are covered. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; gang count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
+      "chapter": "Open world",
+      "stage": 5,
+      "basis": "stated",
+      "guide": "One operation per gang, and the list tracks nine. Each gang's operation is a different kind of fight, so scout before you commit and bring the right tools; this is not a row to rush with a pistol. Keep a written note of which gangs are done, because the description gives no map markers and this guide will not invent them. Nothing is missable, but the operations are easier before the endgame changes the city's mood.",
+      "steps": ["Identify each gang's illegal operation.", "Rob one operation per gang; nine is the list's count."],
+      "sources": ["Requirement: official description, 'Rob an Illegal Operation belonging to each gang.'", "9 gangs: the list's tracked count."]
     },
     {
       "id": 44,
@@ -439,9 +620,13 @@
       "description": "Enjoy a cocktail with a view on Ocean Beach.",
       "grade": "bronze",
       "kind": "other",
-      "missable": false,
-      "chapter": "Exploration",
-      "guide": "Have a cocktail at a spot with a view on Ocean Beach. Head to Ocean Beach, find a bar or venue serving cocktails with an ocean-facing view, and order/drink a cocktail to trigger the trophy. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Free roam",
+      "stage": 5,
+      "basis": "stated",
+      "guide": "A scripted pleasure rather than a grind: go to Ocean Beach, find a bar with a view and order the cocktail. The ellipsis in the name nods at an earlier game in the series, and the trophy is the kind of one-off the story hands you, which is why it is flagged missable. If the prompt does not appear, try a different bar on the beachfront; the description names the district, not the venue.",
+      "steps": ["Go to Ocean Beach and find a bar with a view.", "Order a cocktail and let the scene play."],
+      "sources": ["Requirement: official description, 'Enjoy a cocktail with a view on Ocean Beach.'", "Missable flag: a one-off social moment, per the description's phrasing."]
     },
     {
       "id": 45,
@@ -449,9 +634,13 @@
       "description": "Smash your way out of a vehicle showroom in classic style.",
       "grade": "bronze",
       "kind": "other",
-      "missable": false,
-      "chapter": "Free Roam",
-      "guide": "Escape a vehicle showroom by smashing through in a vehicle, in classic GTA fashion. Enter a showroom, get into a display vehicle, and drive through the glass/exit dramatically. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Free roam",
+      "stage": 5,
+      "basis": "inferred",
+      "guide": "The classic style is the joke: take a car from a showroom and leave through the window rather than the door. The description names no showroom, so pick one with a glass front and a car worth the alarm. Expect a wanted level on the way out. It is flagged missable because showroom access can change with story progress, so do it while the city is still open to you.",
+      "steps": ["Enter a vehicle showroom and take a car.", "Drive out through the glass front."],
+      "sources": ["Official description, 'Smash your way out of a vehicle showroom in classic style.'", "Missable flag: access can be closed by story progress; the method is a reading of the text."]
     },
     {
       "id": 46,
@@ -459,9 +648,13 @@
       "description": "Follow-through at the Kolt & Associates' bowling alley.",
       "grade": "bronze",
       "kind": "activities",
-      "missable": false,
-      "chapter": "Activities",
-      "guide": "Visit the Kolt & Associates bowling alley and complete a bowling action with a proper follow-through. The description hints at performing the bowling mechanic as intended; play a frame or game and ensure you complete the throw animation. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Free roam",
+      "stage": 5,
+      "basis": "stated",
+      "guide": "The named venue is the Kolt and Associates alley, and follow-through means finishing a game rather than throwing one ball. Play a full frame set with whoever the game offers as a partner; the trophy is a social one, and the description's phrasing points at the whole outing. It is flagged missable because the alley outing is tied to a character's availability, so take it when it is offered rather than leaving it for the endgame.",
+      "steps": ["Go to the Kolt and Associates bowling alley.", "Play a full game to the end."],
+      "sources": ["Requirement: official description, 'Follow-through at the Kolt & Associates' bowling alley.'", "Missable flag: the outing depends on a character being available."]
     },
     {
       "id": 47,
@@ -469,9 +662,13 @@
       "description": "A partnership with mass appeal.",
       "grade": "bronze",
       "kind": "other",
-      "missable": false,
-      "chapter": "Story/Free Roam",
-      "guide": "This trophy's official description is deliberately vague. It references a partnership with mass appeal; expect it to unlock during a notable partner moment or social/media-related milestone. Keep an eye on story and partner activities and check community trophy guides after release for the exact trigger. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Free roam",
+      "stage": 5,
+      "basis": "inferred",
+      "guide": "The description is a riddle: a partnership with mass appeal reads as a public moment with your partner, a performance, a broadcast or a crowd-facing stunt. The official text does not name the event, so this guide does not pretend to know it; watch for a story beat that puts the two of you in front of an audience and complete it. It is flagged missable because such moments are usually story-gated and one-off.",
+      "steps": ["Watch for a public story moment with your partner.", "Complete the scene; the description names no event."],
+      "sources": ["Official description, 'A partnership with mass appeal.'", "Reading: the event is unnamed; missable flag follows from its one-off phrasing."]
     },
     {
       "id": 48,
@@ -479,9 +676,13 @@
       "description": "Choices made (for better or worse).",
       "grade": "bronze",
       "kind": "other",
-      "missable": false,
-      "chapter": "Story/Free Roam",
-      "guide": "Unlocks through making choices. Public trophy trackers note PSN tracking up to 500 choices; if accurate, this is a cumulative progression trophy earned by playing naturally and selecting dialogue or action options when prompted. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; tracking detail cross-checked against public trophy trackers such as PSNProfiles/Exophase."
+      "missable": true,
+      "chapter": "Free roam",
+      "stage": 5,
+      "basis": "stated",
+      "guide": "This one counts choices, and the list tracks a total of 500 of them, small decisions as well as story ones. The practical reading: play decisively rather than passively, and take the dialogue and action prompts the game offers instead of walking past them. Because some choices are story-gated, the row is flagged missable; a save before each major branch keeps the count recoverable. The description deliberately does not say which choices count.",
+      "steps": ["Take the choice prompts the game offers, in story and in free roam.", "Keep a save before major branches; the list tracks 500."],
+      "sources": ["Official description, 'Choices made (for better or worse).'", "500: the count the list tracks; the description itself gives no number."]
     },
     {
       "id": 49,
@@ -489,9 +690,13 @@
       "description": "Second time's the charm.",
       "grade": "bronze",
       "kind": "other",
-      "missable": false,
-      "chapter": "Free Roam",
-      "guide": "A tongue-in-cheek trophy that suggests succeeding on a second attempt. If it does not unlock naturally, try failing a retryable activity or mission once, then completing it on the next attempt. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Free roam",
+      "stage": 5,
+      "basis": "inferred",
+      "guide": "Fail once, succeed on the retry: the description is a joke about a second attempt, so the trophy is looking for a specific do-over rather than any success. The official text names no activity, and this guide will not invent one; the safest approach is to retry the activity you just failed instead of walking away, especially in story scenes where a failure is scripted. It is flagged missable because the setup is one-off.",
+      "steps": ["Fail an attempt at a scored activity or scene.", "Retry it immediately and succeed."],
+      "sources": ["Official description, 'Second time's the charm.'", "Reading: no activity is named; missable flag follows from the one-off setup."]
     },
     {
       "id": 50,
@@ -499,9 +704,13 @@
       "description": "What the hell just happened?",
       "grade": "bronze",
       "kind": "other",
-      "missable": false,
-      "chapter": "Exploration",
-      "guide": "Witness a strange or unexplained event. The official description is intentionally mysterious; explore unusual locations, side encounters, and easter-egg areas. Community guides will likely pinpoint the exact trigger after release. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "missable": true,
+      "chapter": "Free roam",
+      "stage": 5,
+      "basis": "inferred",
+      "guide": "A strange encounter, in the X-Files tradition the name points at: the description is a reaction, not an instruction. The list hides this trophy on PlayStation until it is earned, which fits a secret event. The honest guidance is to explore odd places, the desert, the outskirts, the places the story does not send you, and to finish any scene that looks like it is going somewhere strange. It is flagged missable because secret encounters are usually one-off.",
+      "steps": ["Explore the state's odd corners, especially outside the cities.", "Finish any strange scene you trigger."],
+      "sources": ["Official description, 'What the hell just happened?'", "Hidden on PlayStation until earned: the official list's hidden flag; the method is unverified."]
     },
     {
       "id": 51,
@@ -510,8 +719,12 @@
       "grade": "bronze",
       "kind": "other",
       "missable": false,
-      "chapter": "Combat",
-      "guide": "Hit someone with a melee attack while performing a drive-by. Get in a vehicle as a passenger or in a position that allows drive-by melee, pull alongside a pedestrian or enemy, and land a melee strike. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Free roam",
+      "stage": 3,
+      "basis": "stated",
+      "guide": "A melee attack from a moving vehicle: pull alongside a pedestrian, swing, and knock them down. The bowling pun in the name is the only clue, and the description asks for one clean hit rather than a score. Do it somewhere with traffic and witnesses you can leave behind, and expect a wanted level. There is no story gate, and the row can be cleared in free roam at any point.",
+      "steps": ["Drive alongside a pedestrian.", "Land a melee hit from the vehicle and knock them down."],
+      "sources": ["Requirement: official description, 'Bowl 'em over with a melee drive-by.'", "No location given: the description names none."]
     },
     {
       "id": 52,
@@ -520,8 +733,12 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "chapter": "Money",
-      "guide": "Launder $250,000 worth of marked bills using your contacts. Acquire marked bills through missions or free-roam activities, then use the laundering contact/system to convert them until the cumulative laundered total reaches $250,000. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Open world",
+      "stage": 5,
+      "basis": "stated",
+      "guide": "Laundering is a contact activity: marked bills go to your contacts and come back clean, and the list tracks a quarter of a million dollars. Do it in batches after heists rather than hoarding, because the counter only moves when the money is laundered, not when it is earned. The description names no contact, so use whichever the game offers; the percentage cut is not mentioned and does not change the total required.",
+      "steps": ["Collect marked bills from robberies and heists.", "Launder $250,000 through your contacts."],
+      "sources": ["Requirement: official description, 'Earn $250,000 laundering Marked Bills through your contacts.'", "Amount: the official text."]
     },
     {
       "id": 53,
@@ -530,8 +747,12 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "chapter": "Money",
-      "guide": "Spend a cumulative $100,000 across shops. Any shop purchases should contribute to the total; buy clothing, weapons, services, or other items until you hit the threshold. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Open world",
+      "stage": 5,
+      "basis": "stated",
+      "guide": "Spending, not owning: the money has to leave your account at shops, and the list tracks 100,000 dollars. Buy across categories rather than dumping it all in one place, since clothes, weapons, vehicle upgrades and properties all count as shops, and spreading it keeps the counter moving while you work other rows. Do it after the heists when the money is there; nothing about the description is missable.",
+      "steps": ["Spend $100,000 at shops across the state.", "Spread purchases across categories."],
+      "sources": ["Requirement: official description, 'Spend $100,000 across all shops.'", "Amount: the official text."]
     },
     {
       "id": 54,
@@ -540,8 +761,12 @@
       "grade": "bronze",
       "kind": "collectibles",
       "missable": false,
-      "chapter": "Properties",
-      "guide": "Buy every garage property available in the game. Public trophy trackers report 8 garage properties; save money, visit each property listing, and purchase them all. Requirement source: official PlayStation trophy list for Grand Theft Auto VI; property count cross-checked against public trophy trackers such as PSNProfiles/Exophase."
+      "chapter": "Open world",
+      "stage": 4,
+      "basis": "stated",
+      "guide": "Properties are the expensive collectible: the list tracks eight garages, and each one costs real money. Buy them after the big heists, and buy the cheap ones first so the row shows progress early. Garages also solve storage for the vehicle-discovery row, so the purchase doubles as a tool. Nothing in the description makes them missable, but prices can rise with story progress, so earlier is cheaper.",
+      "steps": ["Save enough to buy garages.", "Purchase all eight garage properties."],
+      "sources": ["Requirement: official description, 'Purchase all garage properties.'", "8 garages: the list's tracked count."]
     },
     {
       "id": 55,
@@ -550,8 +775,12 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "chapter": "Activities",
-      "guide": "Register 10 vehicles using the Scooter Bros in-game app. Open the app, select eligible vehicles you own or have access to, and complete registration for ten of them. Requirement source: official PlayStation trophy list for Grand Theft Auto VI."
+      "chapter": "Open world",
+      "stage": 4,
+      "basis": "stated",
+      "guide": "An app chore with a trophy on it: register ten vehicles through Scooter Bros. Any vehicles will do, since the description sets no class or value, so register the ones you already own and any you find while working the discovery row. The app is available in free roam, so this pairs neatly with Whip It Good. Check the in-app counter; the tracker's row is manual.",
+      "steps": ["Open Scooter Bros and register a vehicle.", "Register ten in total."],
+      "sources": ["Requirement: official description, 'Register 10 vehicles to the Scooter Bros app.'", "10: the list's tracked count."]
     }
   ]
 }

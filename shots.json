@@ -1,5 +1,30 @@
 [
-  { "file": "1-checklist.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-roadmap.jpg", "path": "/", "scroll": 620, "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-story-spoiler.jpg", "path": "/", "filter": { "kind": "story", "spoilerHidden": true }, "viewport": { "width": 1280, "height": 800 } }
+  {
+    "file": "1-checklist-guide.jpg",
+    "view": "checklist",
+    "path": "/#p=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54&t=17",
+    "shows": "The checklist with 54 of 55 earned, the header progress card, kind and grade filters, and The Shootist's guide open beside it with its steps and sources.",
+    "viewport": { "width": 1280, "height": 720 }
+  },
+  {
+    "file": "2-roadmap-missables.jpg",
+    "view": "roadmap",
+    "path": "/#v=roadmap&p=1,2,3,4,5,6,7,8,9,10,11,12,13,14",
+    "shows": "The six-stage roadmap to the platinum with per-stage progress, and the missable rows listed with their official descriptions.",
+    "viewport": { "width": 1280, "height": 720 }
+  },
+  {
+    "file": "3-spoiler-story.jpg",
+    "view": "checklist, spoiler setting on, story filter",
+    "path": "/#k=story&s=1&p=1,2,3,4,5,6,7,8,9,10",
+    "shows": "The spoiler setting hiding the names, descriptions and guides of unearned story trophies while the earned ones stay readable.",
+    "viewport": { "width": 1280, "height": 720 }
+  },
+  {
+    "file": "4-save-export.jpg",
+    "view": "save",
+    "path": "/#v=save&p=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+    "shows": "Export, import and reset controls with the share link the tracker builds from the earned ids.",
+    "viewport": { "width": 1280, "height": 720 }
+  }
 ]
