@@ -3,30 +3,48 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Grand Theft Auto VI — Trophy Guide &amp; Tracker</title>
+  <title>Grand Theft Auto VI — Trophy Guide</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip-link" href="#trophy-list">Skip to trophy list</a>
-  <header class="site-header">
-    <div class="header-inner">
-      <p class="eyebrow">Offline guide &amp; tracker</p>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="kicker">PlayStation 5 · Unofficial fan guide</p>
       <h1>Grand Theft Auto VI Trophy Guide</h1>
-      <p class="lede">Track all 55 PlayStation 5 trophies, filter by grade or kind, hide spoilers, and keep your progress saved in this browser.</p>
-      <div class="totals" aria-live="polite">
-        <p id="progress" class="progress">0 of 55 earned</p>
-        <p id="totals" class="totals-line">Totals: 55 trophies (1 platinum, 2 gold, 9 silver, 43 bronze).</p>
+      <p class="lede">
+        A complete offline tracker for all 55 official trophies. Filter the list, mark what you have earned,
+        hide story spoilers, and use the roadmap to plan the platinum.
+      </p>
+      <div class="stats" aria-live="polite">
+        <div class="stat">
+          <span class="stat-label">Earned</span>
+          <strong id="stat-earned" class="stat-value">0 / 55</strong>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Completion</span>
+          <strong id="stat-pct" class="stat-value">0%</strong>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Visible</span>
+          <strong id="stat-visible" class="stat-value">55</strong>
+        </div>
       </div>
+      <p id="totals" class="totals">Totals: 55 trophies (1 platinum, 2 gold, 9 silver, 43 bronze).</p>
     </div>
   </header>
 
-  <main>
-    <section class="controls-panel" aria-labelledby="controls-heading">
-      <h2 id="controls-heading">Filters and progress</h2>
-      <div class="controls-grid">
-        <label class="control">
+  <main id="main" class="wrap main">
+    <section class="panel controls" aria-labelledby="controls-title">
+      <div class="panel-head">
+        <h2 id="controls-title">Filters &amp; tools</h2>
+        <p class="panel-sub">Your checklist is saved in this browser.</p>
+      </div>
+      <div class="control-grid">
+        <label class="field">
           <span>Grade</span>
-          <select id="grade-filter">
+          <select id="filter-grade">
             <option value="all">All grades</option>
             <option value="platinum">Platinum</option>
             <option value="gold">Gold</option>
@@ -34,69 +52,82 @@
             <option value="bronze">Bronze</option>
           </select>
         </label>
-        <label class="control">
+        <label class="field">
           <span>Kind</span>
-          <select id="kind-filter">
+          <select id="filter-kind">
             <option value="all">All kinds</option>
             <option value="story">Story</option>
             <option value="activities">Activities</option>
-            <option value="collectibles">Collectibles / Exploration</option>
+            <option value="collectibles">Collectibles</option>
             <option value="other">Other</option>
           </select>
         </label>
-        <label class="control control-check">
-          <input id="spoiler-toggle" type="checkbox">
-          <span>Hide spoiler guides</span>
+        <label class="field">
+          <span>Status</span>
+          <select id="filter-status">
+            <option value="all">All trophies</option>
+            <option value="earned">Earned only</option>
+            <option value="remaining">Remaining only</option>
+          </select>
         </label>
-        <label class="control control-check">
-          <input id="earned-only" type="checkbox">
-          <span>Show earned only</span>
+        <label class="check">
+          <input id="toggle-spoilers" type="checkbox">
+          <span>Hide story spoiler guides</span>
         </label>
-        <div class="control actions">
-          <button id="export-btn" type="button">Export progress</button>
-          <label class="import-label" for="import-input">Import progress</label>
-          <input id="import-input" type="file" accept="application/json,.json">
-        </div>
+      </div>
+      <div class="tool-row">
+        <button id="btn-export" type="button" class="btn">Export progress</button>
+        <label class="btn btn-secondary file-btn" for="import-file">
+          Import progress
+          <input id="import-file" type="file" accept="application/json,.json">
+        </label>
+        <button id="btn-reset-filters" type="button" class="btn btn-quiet">Reset filters</button>
       </div>
       <p id="status" class="status" role="status" aria-live="polite"></p>
     </section>
 
-    <section class="roadmap" aria-labelledby="roadmap-heading">
-      <h2 id="roadmap-heading">Roadmap to platinum</h2>
-      <ol class="roadmap-steps">
-        <li><strong>Play the story first.</strong> Complete the main chapters, finale, and named story missions. Story trophies form the natural backbone of the list and unlock systems you will need later.</li>
-        <li><strong>Clean up activities early.</strong> Work on races, shooting ranges, drone races, challenges, and combat trophies while you travel. Many can be combined with normal exploration.</li>
-        <li><strong>Track collectibles and locations.</strong> Exploration trophies like 100% completion, vehicles, WAiNK locations, meditation spots, and properties are easiest when you keep a running checklist.</li>
-        <li><strong>Do missable-feeling tasks carefully.</strong> Most trophies can be attempted in free roam, but read each guide before major story or heist moments and keep a manual save when possible.</li>
-        <li><strong>Finish the platinum mop-up.</strong> After story and major activities, compare your earned count against the 55-trophy total and clear remaining shop, robbery, property, and challenge trophies.</li>
+    <section class="panel roadmap" aria-labelledby="roadmap-title">
+      <div class="panel-head">
+        <h2 id="roadmap-title">Platinum roadmap</h2>
+        <p class="panel-sub">A practical order for clearing all 55 trophies.</p>
+      </div>
+      <ol class="roadmap-list">
+        <li><strong>Play the story naturally.</strong> Complete chapter and mission trophies as they appear. Story trophies are marked in the list; use the spoiler toggle if you want descriptions hidden.</li>
+        <li><strong>Clean up activities early.</strong> Work on races, shooting ranges, stunts, and repeatable challenges while exploring so they do not pile up at the end.</li>
+        <li><strong>Track collectibles and exploration.</strong> Meditation spots, WAiNK It locations, vehicle discoveries, properties, and card sets are easiest when you keep a running checklist.</li>
+        <li><strong>Finish combat and money tasks.</strong> Bank vaults, wanted-level escapes, laundering, and spending goals can be planned around your free-roam route.</li>
+        <li><strong>Final sweep for platinum.</strong> After 100% completion and all misc trophies, "Vice Got a Price!" should unlock as the final platinum.</li>
       </ol>
-      <p class="roadmap-note">Notes are based on official trophy names/descriptions and public trophy-listing sources. This guide is original text and is not affiliated with Rockstar Games or PlayStation.</p>
+      <p class="note"><strong>Missable flags:</strong> No trophies are marked missable based on the official trophy descriptions alone. If post-launch information changes this, verify against current patch notes and trusted trackers.</p>
     </section>
 
-    <section aria-labelledby="trophy-list-heading" class="list-section" id="trophy-list">
-      <div class="list-header">
-        <h2 id="trophy-list-heading">Trophy list</h2>
-        <p id="visible-count" class="visible-count">Showing 55 trophies</p>
+    <section class="panel list-panel" aria-labelledby="list-title">
+      <div class="panel-head list-head">
+        <div>
+          <h2 id="list-title">Trophy list</h2>
+          <p class="panel-sub">Official names and descriptions are preserved exactly as listed.</p>
+        </div>
+        <p id="list-count" class="list-count">Showing 55 trophies</p>
       </div>
       <div class="table-wrap">
-        <table class="trophy-table">
+        <table class="trophies">
           <thead>
             <tr>
-              <th scope="col">Earned</th>
+              <th scope="col" class="col-done">Done</th>
               <th scope="col">Trophy</th>
               <th scope="col">Grade</th>
               <th scope="col">Kind</th>
               <th scope="col">Guide</th>
             </tr>
           </thead>
-          <tbody id="rows"></tbody>
+          <tbody id="trophy-body"></tbody>
         </table>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <p>Grand Theft Auto VI is a trademark of its respective owners. This unofficial fan guide uses original text only and no official Rockstar assets.</p>
+  <footer class="wrap footer">
+    <p>Grand Theft Auto VI and related marks are property of their respective owners. This is an unofficial fan project with original guide text and no official Rockstar assets.</p>
   </footer>
 
   <script type="module" src="app.js"></script>
